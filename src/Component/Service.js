@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Services = () => {
+  const [showDetails, setShowDetails] = useState(false);
+
+  const openDetailsPage = () => {
+    setShowDetails(true);
+  };
   return (
     <div>
-      <div className="container-xxl position-relative p-0">
+      <div className="container  p-0">
         {/*  */}
         <div className="container-xxl py-5 bg-primary hero-header mb-5">
           <div className="container my-5 py-5 px-lg-5">
@@ -84,7 +89,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x" />
+                  <i className="fa fa-home fa-2x"></i>
                 </div>
                 <h5 className="mb-3">Search Engine Optimization (SEO)</h5>
                 <p>
@@ -96,9 +101,19 @@ const Services = () => {
                   your website rank higher for relevant keywords and attract
                   more qualified leads.
                 </p>
-                <a className="btn px-3 mt-auto mx-auto" href>
+                <button
+                  className="btn px-3 mt-auto mx-auto"
+                  onClick={openDetailsPage}
+                >
                   Read More
-                </a>
+                </button>
+
+                {showDetails && (
+                  <div id="detailsPage">
+                    <h2>SEO Service Details</h2>
+                    <p>Detailed information about SEO service goes here...</p>
+                  </div>
+                )}
               </div>
             </div>
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -133,7 +148,8 @@ const Services = () => {
                   reliability, and performance. From functional testing to
                   usability testing, our experienced QA team employs rigorous
                   testing methodologies and best practices to identify defects,
-                  mitigate risks, and deliver a seamless user experience.
+                  Complexities in testing modern applications like mobile apps,
+                  IoT devices, and cloud-based
                 </p>
                 <a className="btn px-3 mt-auto mx-auto" href>
                   Read More
@@ -173,8 +189,7 @@ const Services = () => {
                   needs. From simple websites to complex web applications, our
                   team of experienced developers leverages cutting-edge
                   technologies and best practices to deliver high-quality,
-                  scalable, and user-friendly web solutions that drive
-                  engagement, conversions, and growth.
+                  scalable.
                 </p>
                 <a className="btn px-3 mt-auto mx-auto" href>
                   Read More
@@ -193,10 +208,7 @@ const Services = () => {
                   Development, Dynamic Web Application Development, and
                   E-commerce Website Development. From simple informational
                   websites to complex e-commerce platforms, our full-stack
-                  development team possesses the expertise and experience to
-                  bring your vision to life, delivering high-quality, scalable,
-                  and feature-rich web solutions that meet your specific
-                  business objectives and requirements.
+                  development.
                 </p>
                 <a className="btn px-3 mt-auto mx-auto" href>
                   Read More

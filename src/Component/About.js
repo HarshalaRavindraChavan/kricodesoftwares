@@ -90,7 +90,7 @@ const About = () => {
                 efficiency, and success for our clients.
               </p>
               <div className="row g-3">
-                <div className="col-sm-6">
+                <div className="col-sm-4">
                   <h6 className="mb-3">
                     <i className="fa fa-check text-primary me-2" />
                     Award Winning
@@ -99,6 +99,7 @@ const About = () => {
                     <i className="fa fa-check text-primary me-2" />
                     Professional Staff
                   </h6>
+                  
                 </div>
                 <div className="col-sm-6">
                   <h6 className="mb-3">
@@ -110,21 +111,22 @@ const About = () => {
                     Fair Prices
                   </h6>
                 </div>
+                
               </div>
               <div className="d-flex align-items-center mt-4">
                 <a className="btn btn-primary rounded-pill px-4 me-3" href>
                   Read More
                 </a>
-                <a className="btn btn-outline-primary btn-square me-3" href>
+                <a className="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/profile.php?id=61556115733343">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a className="btn btn-outline-primary btn-square me-3" href>
+                <a className="btn btn-outline-primary btn-square me-3" href="">
                   <i className="fab fa-twitter" />
                 </a>
-                <a className="btn btn-outline-primary btn-square me-3" href>
+                <a className="btn btn-outline-primary btn-square me-3" href="https://www.instagram.com/kricodesoftwares/?hl=en">
                   <i className="fab fa-instagram" />
                 </a>
-                <a className="btn btn-outline-primary btn-square" href>
+                <a className="btn btn-outline-primary btn-square" href="https://www.linkedin.com/company/101652483/admin/feed/posts/">
                   <i className="fab fa-linkedin-in" />
                 </a>
               </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import logoSm from "../../public/kricode-logo-ORIGINAL(2).png";
 
 const Header = () => {
   return (
@@ -9,7 +10,10 @@ const Header = () => {
           <h1 className="ml-4">
             {/* <i className="fa fa-search me-2" /> */}
             {/* SEO<span className="fs-5">Master</span> */}
-            <img src="https://kri8dm.co.in/images/logo.png" alt="Logo" />
+            {/* <img src={logoSm} alt="Logo" /> */}
+            <img src="/kricode-logo-ORIGINAL(2).png" alt="" height="22" />
+           
+
           </h1>
         </a>
         <button

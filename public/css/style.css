@@ -196,7 +196,15 @@ h6,
         left 45% bottom -1px,
         center bottom -1px;
     background-repeat: no-repeat;
+    width: 500%; /* Set width to 100% to make it full width */
 }
+
+.container-xxl {
+    width: 500%; /* Set width to 100% to make it full width */
+    padding-right: 0; /* Remove right padding to make it full width */
+    padding-left: 0; /* Remove left padding to make it full width */
+}
+
 
 
 /*** Section Title ***/
