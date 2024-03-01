@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Master Rcf={Home} />}></Route>
           <Route path="/about" element={<Master Rcf={About} />}></Route>
-          <Route path="/project" element={<Master Rcf={Project} />}></Route>
+          {/* <Route path="/project" element={<Master Rcf={Project} />}></Route> */}
           <Route path="/team" element={<Master Rcf={Team} />}></Route>
           <Route path="/testimonial" element={<Master Rcf={Testimonial}/>}></Route>
           <Route path="/contact" element={<Master Rcf={Contact} />}></Route>

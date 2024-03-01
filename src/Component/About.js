@@ -82,10 +82,12 @@ const About = () => {
                 </h2>
               </div>
               <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum et
-                tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum
-                et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo
-                justo et tempor eirmod magna dolore erat amet
+                At Kricode Software, we are passionate about crafting innovative
+                digital solutions that empower businesses to thrive in the
+                ever-evolving digital landscape. With a focus on excellence,
+                creativity, and customer satisfaction, we are committed to
+                delivering cutting-edge software solutions that drive growth,
+                efficiency, and success for our clients.
               </p>
               <div className="row g-3">
                 <div className="col-sm-6">
