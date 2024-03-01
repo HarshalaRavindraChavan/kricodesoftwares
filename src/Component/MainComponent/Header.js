@@ -6,11 +6,11 @@ const Header = () => {
     <div className="container-xxl position-relative p-0">
       <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <a href className="navbar-brand p-0">
-          <h1 className="m-0">
-            <i className="fa fa-search me-2" />
-            SEO<span className="fs-5">Master</span>
+          <h1 className="ml-4">
+            {/* <i className="fa fa-search me-2" /> */}
+            {/* SEO<span className="fs-5">Master</span> */}
+            <img src="https://kri8dm.co.in/images/logo.png" alt="Logo" />
           </h1>
-          {/* <img src="img/logo.png" alt="Logo"> */}
         </a>
         <button
           className="navbar-toggler"
@@ -30,13 +30,16 @@ const Header = () => {
             <Link to="/about" className="nav-item nav-link">
               About
             </Link>
-            <Link to="/service"  className="nav-item nav-link">
+            <Link to="/service" className="nav-item nav-link">
               Service
             </Link>
             <Link to="/project" className="nav-item nav-link">
               Project
             </Link>
-            <div className="nav-item dropdown">
+            <Link to="/team" className="nav-item nav-link">
+              Our Team
+            </Link>
+            {/* <div className="nav-item dropdown">
               <a
                 href="#"
                 className="nav-link dropdown-toggle"
@@ -45,17 +48,14 @@ const Header = () => {
                 Pages
               </a>
               <div className="dropdown-menu m-0">
-                <Link to="/team" className="dropdown-item">
-                  Our Team
-                </Link>
-                <Link to="/testimonial"className="dropdown-item">
+                <Link to="/testimonial" className="dropdown-item">
                   Testimonial
                 </Link>
                 <Link to="/notfound" className="dropdown-item">
                   404 Page
                 </Link>
               </div>
-            </div>
+            </div> */}
             <Link to="/contact" className="nav-item nav-link">
               Contact
             </Link>
@@ -76,7 +76,6 @@ const Header = () => {
           </a>
         </div>
       </nav>
-     
     </div>
   );
 };
