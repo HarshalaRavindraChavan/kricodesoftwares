@@ -206,8 +206,8 @@ const Services = () => {
                   Our Full-Stack Web Development Solutions encompass a
                   comprehensive range of services, including Static Website
                   Development, Dynamic Web Application Development, and
-                  E-commerce Website Development. From simple informational
-                  websites to complex e-commerce platforms, our full-stack
+                  E-commerce Website Development Encrypting sensitive data to
+                  protect it from unauthorized access.websites to complex e-commerce platforms, our full-stack
                   development.
                 </p>
                 <a className="btn px-3 mt-auto mx-auto" href>
