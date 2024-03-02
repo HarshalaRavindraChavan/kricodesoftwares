@@ -1,12 +1,6 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 
-const ServicesCard1 = () => {
-  const [showDetails, setShowDetails] = useState(false);
-
-  const openDetailsPage = () => {
-    setShowDetails(true);
-  };
+const ServicesCard4 = () => {
   return (
     <div>
       <div className="container  p-0">
@@ -26,32 +20,29 @@ const ServicesCard1 = () => {
       <div className="container-xxl py-5">
         <div className="container px-lg-5">
           <div className="row g-5">
-            <div
-              className="col-lg-6 wow fadeInUp"
-              data-wow-delay="0.1s"
-              // style={{ paddingTop: "60px" }}
-            >
-              <div className="position-relative">
-                <h2 className="mt-2">Search Engine Optimization (SEO)</h2>
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className=" position-relative">
+                <h2 className="mt-2">Mobile Application Development</h2>
               </div>
               <p className="mb-4">
-                Our Search Engine Optimization (SEO) service is designed to
-                improve your website's visibility in search engine results pages
-                (SERPs), driving organic traffic and increasing your online
-                presence. Through a combination of on-page optimization, content
-                strategy, and technical SEO, we help your website rank higher
-                for relevant keywords and attract more qualified leads.
+                Our Mobile Application Development service empowers businesses
+                to reach their customers on the go, delivering intuitive and
+                engaging mobile experiences across iOS and Android platforms.
+                From concept to launch, our expert team of mobile app developers
+                collaborates closely with you to design, develop, and deploy
+                custom mobile solutions that drive user engagement,
+                satisfaction, and retention.
               </p>
-              <div className=" position-relative ">
+              <div className=" position-relative  ">
                 <h2 className="mt-2">Benefits</h2>
               </div>
               <p className="mb-4">
-                Improved Search Rankings: Our SEO efforts help your website rank
-                higher in search engine results, increasing visibility and
-                driving more organic traffic.Increased Organic Traffic: By
-                targeting relevant keywords and optimizing your website's
-                content, we attract qualified leads who are actively searching
-                for products or services like yours.
+                Increased Reach and Engagement: Mobile applications enable you to
+                connect with customers anytime, anywhere, driving engagement,
+                loyalty, and repeat business. Enhanced Brand Visibility: By
+                offering a mobile app, you elevate your brand presence and
+                visibility in the crowded mobile marketplace, standing out from
+                competitors.
               </p>
 
               <div
@@ -89,7 +80,7 @@ const ServicesCard1 = () => {
               <img
                 className="img-fluid wow zoomIn"
                 data-wow-delay="0.5s"
-                src="https://cdn.pixabay.com/photo/2023/03/11/08/52/search-engine-optimization-7843974_640.jpg"
+                src="https://riseuplabs.com/wp-content/uploads/2021/07/mobile-application-development-guidelines-riseuplabs.jpg"
                 style={{ borderRadius: "30px" }}
               />
             </div>
@@ -100,4 +91,4 @@ const ServicesCard1 = () => {
   );
 };
 
-export default ServicesCard1;
+export default ServicesCard4;

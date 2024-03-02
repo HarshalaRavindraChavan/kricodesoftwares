@@ -129,9 +129,14 @@ const Services = () => {
                   processes, our team of data scientists is here to help you
                   harness the power of your data.
                 </p>
-                <a className="btn px-3 mt-auto mx-auto" href>
-                  Read More
-                </a>
+                <Link
+                    className="btn px-3 mt-auto mx-auto"
+                    onClick={openDetailsPage}
+                    target="_blank"
+                    to="/servicescard2"
+                  >
+                    Read More
+                  </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -149,9 +154,14 @@ const Services = () => {
                   Complexities in testing modern applications like mobile apps,
                   IoT devices, and cloud-based
                 </p>
-                <a className="btn px-3 mt-auto mx-auto" href>
-                  Read More
-                </a>
+                <Link
+                    className="btn px-3 mt-auto mx-auto"
+                    onClick={openDetailsPage}
+                    target="_blank"
+                    to="/servicescard3"
+                  >
+                    Read More
+                  </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -169,9 +179,14 @@ const Services = () => {
                   and deploy custom mobile solutions that drive user engagement,
                   satisfaction, and retention.
                 </p>
-                <a className="btn px-3 mt-auto mx-auto" href>
-                  Read More
-                </a>
+                <Link
+                    className="btn px-3 mt-auto mx-auto"
+                    onClick={openDetailsPage}
+                    target="_blank"
+                    to="/servicescard4"
+                  >
+                    Read More
+                  </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -189,9 +204,14 @@ const Services = () => {
                   technologies and best practices to deliver high-quality,
                   scalable.
                 </p>
-                <a className="btn px-3 mt-auto mx-auto" href>
-                  Read More
-                </a>
+                <Link
+                    className="btn px-3 mt-auto mx-auto"
+                    onClick={openDetailsPage}
+                    target="_blank"
+                    to="/servicescard5"
+                  >
+                    Read More
+                  </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -208,9 +228,14 @@ const Services = () => {
                   protect it from unauthorized access.websites to complex
                   e-commerce platforms, our full-stack development.
                 </p>
-                <a className="btn px-3 mt-auto mx-auto" href>
-                  Read More
-                </a>
+                <Link
+                    className="btn px-3 mt-auto mx-auto"
+                    onClick={openDetailsPage}
+                    target="_blank"
+                    to="/servicescard6"
+                  >
+                    Read More
+                  </Link>
               </div>
             </div>
           </div>

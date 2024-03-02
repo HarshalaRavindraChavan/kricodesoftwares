@@ -1,12 +1,6 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 
-const ServicesCard1 = () => {
-  const [showDetails, setShowDetails] = useState(false);
-
-  const openDetailsPage = () => {
-    setShowDetails(true);
-  };
+const ServicesCard2 = () => {
   return (
     <div>
       <div className="container  p-0">
@@ -29,20 +23,20 @@ const ServicesCard1 = () => {
             <div
               className="col-lg-6 wow fadeInUp"
               data-wow-delay="0.1s"
-              // style={{ paddingTop: "60px" }}
+              
             >
-              <div className="position-relative">
-                <h2 className="mt-2">Search Engine Optimization (SEO)</h2>
+              <div className=" position-relative">
+                <h2 className="mt-2">Data Science Solutions</h2>
               </div>
               <p className="mb-4">
-                Our Search Engine Optimization (SEO) service is designed to
-                improve your website's visibility in search engine results pages
-                (SERPs), driving organic traffic and increasing your online
-                presence. Through a combination of on-page optimization, content
-                strategy, and technical SEO, we help your website rank higher
-                for relevant keywords and attract more qualified leads.
+                Our Data Science Solutions service leverages advanced analytics
+                and machine learning techniques to unlock valuable insights from
+                your data, enabling datadriven decision-making and business
+                growth. Whether you're looking to extract actionable insights,
+                build predictive models, or optimize processes, our team of data
+                scientists is here to help you harness the power of your data.
               </p>
-              <div className=" position-relative ">
+              <div className=" position-relative  ">
                 <h2 className="mt-2">Benefits</h2>
               </div>
               <p className="mb-4">
@@ -89,8 +83,8 @@ const ServicesCard1 = () => {
               <img
                 className="img-fluid wow zoomIn"
                 data-wow-delay="0.5s"
-                src="https://cdn.pixabay.com/photo/2023/03/11/08/52/search-engine-optimization-7843974_640.jpg"
-                style={{ borderRadius: "30px" }}
+                src="https://media.licdn.com/dms/image/D4D12AQFHPmRYaRtnwg/article-cover_image-shrink_720_1280/0/1693052551743?e=2147483647&v=beta&t=GtSivlN7TrR6unT7ymYpDiyoBKYbipZbX81Quqx8KPg"
+                style={{borderRadius:"30px"}}
               />
             </div>
           </div>
@@ -100,4 +94,4 @@ const ServicesCard1 = () => {
   );
 };
 
-export default ServicesCard1;
+export default ServicesCard2;

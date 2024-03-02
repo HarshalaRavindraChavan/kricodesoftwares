@@ -1,12 +1,6 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 
-const ServicesCard1 = () => {
-  const [showDetails, setShowDetails] = useState(false);
-
-  const openDetailsPage = () => {
-    setShowDetails(true);
-  };
+const ServicesCard6 = () => {
   return (
     <div>
       <div className="container  p-0">
@@ -26,32 +20,30 @@ const ServicesCard1 = () => {
       <div className="container-xxl py-5">
         <div className="container px-lg-5">
           <div className="row g-5">
-            <div
-              className="col-lg-6 wow fadeInUp"
-              data-wow-delay="0.1s"
-              // style={{ paddingTop: "60px" }}
-            >
-              <div className="position-relative">
-                <h2 className="mt-2">Search Engine Optimization (SEO)</h2>
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div className=" position-relative">
+                <h2 className="mt-2">Full-Stack Web Development Solutions</h2>
               </div>
               <p className="mb-4">
-                Our Search Engine Optimization (SEO) service is designed to
-                improve your website's visibility in search engine results pages
-                (SERPs), driving organic traffic and increasing your online
-                presence. Through a combination of on-page optimization, content
-                strategy, and technical SEO, we help your website rank higher
-                for relevant keywords and attract more qualified leads.
+                Our Full-Stack Web Development Solutions encompass a
+                comprehensive range of services, including Static Website
+                Development, Dynamic Web Application Development, and E-commerce
+                Website Development Encrypting sensitive data to protect it from
+                unauthorized access.websites to complex e-commerce platforms,
+                our full-stack development.
               </p>
-              <div className=" position-relative ">
+              <div className=" position-relative  ">
                 <h2 className="mt-2">Benefits</h2>
               </div>
               <p className="mb-4">
-                Improved Search Rankings: Our SEO efforts help your website rank
-                higher in search engine results, increasing visibility and
-                driving more organic traffic.Increased Organic Traffic: By
-                targeting relevant keywords and optimizing your website's
-                content, we attract qualified leads who are actively searching
-                for products or services like yours.
+                Comprehensive Solutions: Our full-stack web development
+                solutions cover all aspects of web development, from static
+                websites to dynamic web applications and e-commerce platforms,
+                providing end-to-end support for your online presence.
+                Customization and Flexibility: We tailor our web solutions to
+                your specific business needs and requirements, providing custom
+                features, functionalities, and designs that align with your
+                brand identity and objectives.
               </p>
 
               <div
@@ -89,7 +81,7 @@ const ServicesCard1 = () => {
               <img
                 className="img-fluid wow zoomIn"
                 data-wow-delay="0.5s"
-                src="https://cdn.pixabay.com/photo/2023/03/11/08/52/search-engine-optimization-7843974_640.jpg"
+                src="https://miro.medium.com/v2/resize:fit:800/1*iLa3E1yYHoYhOloCqQv36Q.png"
                 style={{ borderRadius: "30px" }}
               />
             </div>
@@ -100,4 +92,4 @@ const ServicesCard1 = () => {
   );
 };
 
-export default ServicesCard1;
+export default ServicesCard6;

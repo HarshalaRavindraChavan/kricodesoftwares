@@ -1,20 +1,125 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const About = () => {
+
+
+  const [filter, setFilter] = useState("all");
+
+  const portfolioItems = [
+    { id: 1, category: "design", imageUrl: "img/portfolio-1.jpg", projectName: "Project 1" },
+    { id: 2, category: "development", imageUrl: "img/portfolio-2.jpg", projectName: "Project 2" },
+    { id: 3, category: "design", imageUrl: "img/portfolio-3.jpg", projectName: "Project 3" },
+    { id: 4, category: "development", imageUrl: "img/portfolio-4.jpg", projectName: "Project 4" },
+    { id: 5, category: "design", imageUrl: "img/portfolio-3.jpg", projectName: "Project 5" },
+    { id: 6, category: "development", imageUrl: "img/portfolio-4.jpg", projectName: "Project 6" },
+    // Add more portfolio items here
+  ];
+
+  const filteredPortfolioItems = filter === "all" ? portfolioItems : portfolioItems.filter(item => item.category === filter);
+  const limitedPortfolioItems = filter === "design" ? filteredPortfolioItems.slice(0, 3) : filteredPortfolioItems;
+
+
   const [showDetails, setShowDetails] = useState(false);
 
   const openDetailsPage = () => {
     setShowDetails(true);
   };
+  const CustomNextArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          backgroundColor: "black",
+          display: "block",
+          right: "20px",
+          zIndex: 1,
+        }}
+        onClick={onClick}
+      >
+        <span className="custom-arrow">Next</span>
+      </div>
+    );
+  };
+
+  const CustomPrevArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          backgroundColor: "black",
+          display: "block",
+          left: "20px",
+          zIndex: 1,
+        }}
+        onClick={onClick}
+      >
+        <span className="custom-arrow">Prev</span>
+      </div>
+    );
+  };
+
+  const slides = [
+    {
+      url: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Pink_flower.jpg",
+      alt: "Alternative text for image 1",
+    },
+    {
+      url: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Pink_flower.jpg",
+      alt: "Alternative text for image 2",
+    },
+    {
+      url: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Pink_flower.jpg",
+      alt: "Alternative text for image 1",
+    },
+    {
+      url: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Pink_flower.jpg",
+      alt: "Alternative text for image 2",
+    },
+  ];
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    nextArrow: <CustomNextArrow />,
+    prevArrow: <CustomPrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+    ],
+  };
   return (
     <div>
-      <div className="container-xxl position-relative p-0">
-        <div className="container-xxl py-5 bg-primary hero-header mb-5">
+      <div>
+        <div className="container-fluid  py-5 bg-primary hero-header mb-5">
           <div className="container my-5 py-5 px-lg-5">
             <div className="row g-5 py-5">
               <div className="col-12 text-center">
-                <h1 className="text-white animated zoomIn">About Us</h1>
+                <h1 className="text-white animated zoomIn ">About Us</h1>
                 <hr className="bg-white mx-auto mt-0" style={{ width: 90 }} />
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb justify-content-center">
@@ -212,153 +317,55 @@ const About = () => {
       </div>
       {/* Newsletter End */}
       {/* Team Start */}
-      <div className="container-xxl py-5">
-        <div className="container px-lg-5">
-          <div
-            className="section-title position-relative text-center mb-5 pb-2 wow fadeInUp"
-            data-wow-delay="0.1s"
-          >
-            <h6 className="position-relative d-inline text-primary ps-4">
-              Our Team
-            </h6>
-            <h2 className="mt-2">Meet Our Team Members</h2>
-          </div>
-          <div className="row g-4">
-            <div className="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-              <div className="team-item">
-                <div className="d-flex">
-                  <div
-                    className="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
-                    style={{ width: 75 }}
-                  >
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                  <img
-                    className="img-fluid rounded w-100"
-                    src="img/team-1.jpg"
-                    alt
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h5 className="fw-bold m-0">Jhon Doe</h5>
-                  <small>CEO</small>
-                </div>
-              </div>
+      {/* <div className="slider-section">
+        <Slider {...settings}>
+          {slides.map((slide, index) => (
+            <div key={index} className="slide-item">
+              <img src={slide.url} alt={slide.alt} />
             </div>
-            <div className="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-              <div className="team-item">
-                <div className="d-flex">
-                  <div
-                    className="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
-                    style={{ width: 75 }}
-                  >
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                  <img
-                    className="img-fluid rounded w-100"
-                    src="img/team-2.jpg"
-                    alt
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h5 className="fw-bold m-0">Emma William</h5>
-                  <small>Manager</small>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-              <div className="team-item">
-                <div className="d-flex">
-                  <div
-                    className="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
-                    style={{ width: 75 }}
-                  >
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                  <img
-                    className="img-fluid rounded w-100"
-                    src="img/team-3.jpg"
-                    alt
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h5 className="fw-bold m-0">Noah Michael</h5>
-                  <small>Designer</small>
-                </div>
-              </div>
-            </div>
+          ))}
+        </Slider>
+      </div> */}
+
+<div className="container-xxl py-5">
+      <div className="container px-lg-5">
+        <div className="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+          <h2 className="mt-2">Our Client Logo's</h2>
+        </div>
+        <div className="row wow fadeInUp" data-wow-delay="0.1s">
+          <div className="col-12 text-center">
+            <ul className="list-inline" id="portfolio-flters">
+              <li className={`btn px-3 pe-4 ${filter === 'all' && 'active'}`} onClick={() => setFilter("all")}>All</li>
+              <li className={`btn px-3 pe-4 ${filter === 'design' && 'active'}`} onClick={() => setFilter("design")}>Design</li>
+              <li className={`btn px-3 pe-4 ${filter === 'development' && 'active'}`} onClick={() => setFilter("development")}>Development</li>
+            </ul>
           </div>
         </div>
+        <div className="row g-4 portfolio-container">
+          {limitedPortfolioItems.map(item => (
+            <div key={item.id} className={`col-lg-4 col-md-6 portfolio-item ${item.category}`}>
+              <div className="position-relative rounded overflow-hidden">
+                <img className="img-fluid w-100" src={item.imageUrl} alt="" />
+                <div className="portfolio-overlay">
+                  <a className="btn btn-light" href={item.imageUrl} data-lightbox="portfolio">
+                    <i className="fa fa-plus fa-2x text-primary"></i>
+                  </a>
+                  <div className="mt-auto">
+                    <small className="text-white">
+                      <i className="fa fa-folder me-2"></i>
+                      {item.category}
+                    </small>
+                    <a className="h5 d-block text-white mt-1 mb-0" href="#">
+                      {item.projectName}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
+    </div>
     </div>
   );
 };

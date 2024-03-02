@@ -196,7 +196,9 @@ h6,
         left 45% bottom -1px,
         center bottom -1px;
     background-repeat: no-repeat;
-    width: 500%; /* Set width to 100% to make it full width */
+    width: 100%;
+    background-color:black;
+
 }
 
 .container-xxl {
@@ -530,4 +532,9 @@ h6,
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.slides {
+    /* height: 100px; */
+
 }
