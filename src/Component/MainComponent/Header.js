@@ -10,8 +10,8 @@ const Header = () => {
           <h1 className="ml-4">
             {/* <i className="fa fa-search me-2" /> */}
             {/* SEO<span className="fs-5">Master</span> */}
-            {/* <img src="\kricode-logo-ORIGINAL.png" alt="Logo" /> */}
-            <img src="\kricode-logo-ORIGINAL(2).png" alt="" height="22" />
+            <img src="\kricode-logo-ORIGINAL.png" alt="Logo" />
+            {/* <img src="\kricode-logo-ORIGINAL(2).png" alt="" height="22" /> */}
            
 
           </h1>
@@ -43,7 +43,7 @@ const Header = () => {
             <Link to="/team" className="nav-item nav-link">
               Our Team
             </Link>
-            
+
             <Link to="/contact" className="nav-item nav-link">
               Contact
             </Link>
