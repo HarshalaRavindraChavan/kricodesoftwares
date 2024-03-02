@@ -22,9 +22,9 @@ const Footer = () => {
               kricodesoftwares@gmail.com{" "}
             </p>
             <div className="d-flex pt-2">
-              <a className="btn btn-outline-light btn-social" href="">
+              {/* <a className="btn btn-outline-light btn-social" href="">
                 <i className="fab fa-twitter" />
-              </a>
+              </a> */}
               <a
                 className="btn btn-outline-light btn-social"
                 href="https://www.facebook.com/profile.php?id=61556115733343"

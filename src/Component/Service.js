@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   const [showDetails, setShowDetails] = useState(false);
@@ -91,30 +92,27 @@ const Services = () => {
                 <div className="service-icon flex-shrink-0">
                   <i className="fa fa-home fa-2x"></i>
                 </div>
-                <h5 className="mb-3">Search Engine Optimization (SEO)</h5>
-                <p>
-                  Our Search Engine Optimization (SEO) service is designed to
-                  improve your website's visibility in search engine results
-                  pages (SERPs), driving organic traffic and increasing your
-                  online presence. Through a combination of on-page
-                  optimization, content strategy, and technical SEO, we help
-                  your website rank higher for relevant keywords and attract
-                  more qualified leads.
-                </p>
-                <button
-                  className="btn px-3 mt-auto mx-auto"
-                  onClick={openDetailsPage}
-                >
-                  Read More
-                </button>
-
-                {showDetails && (
-                  <div id="detailsPage">
-                    <h2>SEO Service Details</h2>
-                    <p>Detailed information about SEO service goes here...</p>
+                  <div>
+                    <h5 className="mb-3">Search Engine Optimization (SEO)</h5>
+                    <p>
+                      Our Search Engine Optimization (SEO) service is designed
+                      to improve your website's visibility in search engine
+                      results pages (SERPs), driving organic traffic and
+                      increasing your online presence. Through a combination of
+                      on-page optimization, content strategy, and technical SEO,
+                      we help your website rank higher for relevant keywords and
+                      attract more qualified leads.
+                    </p>
                   </div>
-                )}
-              </div>
+                  <Link
+                    className="btn px-3 mt-auto mx-auto"
+                    onClick={openDetailsPage}
+                    target="_blank"
+                    to="/servicescard1"
+                  >
+                    Read More
+                  </Link>
+                </div>
             </div>
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
@@ -207,8 +205,8 @@ const Services = () => {
                   comprehensive range of services, including Static Website
                   Development, Dynamic Web Application Development, and
                   E-commerce Website Development Encrypting sensitive data to
-                  protect it from unauthorized access.websites to complex e-commerce platforms, our full-stack
-                  development.
+                  protect it from unauthorized access.websites to complex
+                  e-commerce platforms, our full-stack development.
                 </p>
                 <a className="btn px-3 mt-auto mx-auto" href>
                   Read More
