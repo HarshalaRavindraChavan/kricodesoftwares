@@ -13,6 +13,11 @@ import Contact from "./Component/Contact";
 import Notfound from "./Component/Notfound";
 import ServicesCard1 from "./Component/ServicesCard1";
 import AboutCard from "./Component/AboutCard";
+import ServicesCard2 from "./Component/ServicesCard2";
+import ServicesCard3 from "./Component/ServicesCard3";
+import ServicesCard4 from "./Component/ServicesCard4";
+import ServicesCard5 from "./Component/ServicesCard5";
+import ServicesCard6 from "./Component/ServicesCard6";
 
 function App() {
   return (
@@ -27,9 +32,19 @@ function App() {
           <Route path="/contact" element={<Master Rcf={Contact} />}></Route>
           <Route path="/notfound" element={<Master Rcf={Notfound} />}></Route>
           <Route path="/service" element={<Master Rcf={Service} />}></Route>
-          <Route path="/servicescard1" element={<Master Rcf={ServicesCard1} />}></Route>
           <Route path="/aboutcard" element={<Master Rcf={AboutCard} />}></Route>
+          <Route path="/servicescard1" element={<Master Rcf={ServicesCard1} />}></Route>
+          <Route path="/servicescard2" element={<Master Rcf={ServicesCard2} />}></Route>
+          <Route path="/servicescard3" element={<Master Rcf={ServicesCard3} />}></Route>
+          <Route path="/servicescard4" element={<Master Rcf={ServicesCard4} />}></Route>
+          <Route path="/servicescard5" element={<Master Rcf={ServicesCard5} />}></Route>
+          <Route path="/servicescard6" element={<Master Rcf={ServicesCard6} />}></Route>
 
+
+
+
+
+         
 
          
         </Routes>

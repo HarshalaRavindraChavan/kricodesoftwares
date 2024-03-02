@@ -4,16 +4,17 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="container-xxl position-relative p-0">
+    <div className="container-fluid p-0 w-auto ">
       <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <a href className="navbar-brand p-0">
           <h1 className="ml-4">
             {/* <i className="fa fa-search me-2" /> */}
             {/* SEO<span className="fs-5">Master</span> */}
-            <img src="\kricode-logo-ORIGINAL.png" alt="Logo" />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Zu3irG3OA76GmYYQxM7HAirpkGrsyAI5btWgv7xKdw&s"
+              alt="Logo"
+            />
             {/* <img src="\kricode-logo-ORIGINAL(2).png" alt="" height="22" /> */}
-           
-
           </h1>
         </a>
         <button
