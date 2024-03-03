@@ -177,7 +177,7 @@ const About = () => {
       </div>
       {/* About End */}
       {/* Newsletter Start */}
-      {/* <div
+      <div
         className="container bg-primary newsletter my-5 wow fadeInUp"
         data-wow-delay="0.1s"
       >
@@ -212,7 +212,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* Newsletter End */}
       {/* Team Start */}
       <div className="container bg-primary  wow fadeInUp "style={{height:'350px'}} >
