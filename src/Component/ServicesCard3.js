@@ -3,8 +3,7 @@ import React from "react";
 const ServicesCard3 = () => {
   return (
     <div>
-      <div className="container  p-0">
-        <div className="container-xxl py-5 bg-primary hero-header mb-5">
+        <div className="container-fluid  py-5 bg-primary hero-header mb-5">
           <div className="container my-5 py-5 px-lg-5">
             <div className="row g-5 py-5">
               <div className="col-12 text-center">
@@ -15,10 +14,10 @@ const ServicesCard3 = () => {
             </div>
           </div>
         </div>
-      </div>
+      
 
-      <div className="container-xxl py-5">
-        <div className="container px-lg-5">
+      <div className="container py-5">
+        <div className="container ">
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className=" position-relative">

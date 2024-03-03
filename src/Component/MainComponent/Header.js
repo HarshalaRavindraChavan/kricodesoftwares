@@ -8,8 +8,6 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <a href className="navbar-brand p-0">
           <h1 className="ml-4">
-            {/* <i className="fa fa-search me-2" /> */}
-            {/* SEO<span className="fs-5">Master</span> */}
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Zu3irG3OA76GmYYQxM7HAirpkGrsyAI5btWgv7xKdw&s"
               alt="Logo"
@@ -38,9 +36,7 @@ const Header = () => {
             <Link to="/service" className="nav-item nav-link">
               Services
             </Link>
-            {/* <Link to="/project" className="nav-item nav-link">
-              Project
-            </Link> */}
+          
             <Link to="/team" className="nav-item nav-link">
               Our Team
             </Link>

@@ -3,22 +3,20 @@ import React from "react";
 const ServicesCard6 = () => {
   return (
     <div>
-      <div className="container  p-0">
-        <div className="container-xxl py-5 bg-primary hero-header mb-5">
-          <div className="container my-5 py-5 px-lg-5">
-            <div className="row g-5 py-5">
-              <div className="col-12 text-center">
-                <h1 className="text-white animated zoomIn">Services</h1>
-                <hr className="bg-white mx-auto mt-0" style={{ width: 90 }} />
-                <nav aria-label="breadcrumb"></nav>
-              </div>
+      <div className="container-fluid  py-5 bg-primary hero-header mb-5">
+        <div className="container my-5 py-5 px-lg-5">
+          <div className="row g-5 py-5">
+            <div className="col-12 text-center">
+              <h1 className="text-white animated zoomIn">Services</h1>
+              <hr className="bg-white mx-auto mt-0" style={{ width: 90 }} />
+              <nav aria-label="breadcrumb"></nav>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="container-xxl py-5">
-        <div className="container px-lg-5">
+      <div className="container py-5">
+        <div className="container ">
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className=" position-relative">

@@ -1,117 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
+
 const About = () => {
-
-
-  const [filter, setFilter] = useState("all");
-
-  const portfolioItems = [
-    { id: 1, category: "design", imageUrl: "img/portfolio-1.jpg", projectName: "Project 1" },
-    { id: 2, category: "development", imageUrl: "img/portfolio-2.jpg", projectName: "Project 2" },
-    { id: 3, category: "design", imageUrl: "img/portfolio-3.jpg", projectName: "Project 3" },
-    { id: 4, category: "development", imageUrl: "img/portfolio-4.jpg", projectName: "Project 4" },
-    { id: 5, category: "design", imageUrl: "img/portfolio-3.jpg", projectName: "Project 5" },
-    { id: 6, category: "development", imageUrl: "img/portfolio-4.jpg", projectName: "Project 6" },
-    // Add more portfolio items here
-  ];
-
-  const filteredPortfolioItems = filter === "all" ? portfolioItems : portfolioItems.filter(item => item.category === filter);
-  const limitedPortfolioItems = filter === "design" ? filteredPortfolioItems.slice(0, 3) : filteredPortfolioItems;
-
-
   const [showDetails, setShowDetails] = useState(false);
 
   const openDetailsPage = () => {
     setShowDetails(true);
   };
-  const CustomNextArrow = (props) => {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{
-          ...style,
-          backgroundColor: "black",
-          display: "block",
-          right: "20px",
-          zIndex: 1,
-        }}
-        onClick={onClick}
-      >
-        <span className="custom-arrow">Next</span>
-      </div>
-    );
-  };
 
-  const CustomPrevArrow = (props) => {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{
-          ...style,
-          backgroundColor: "black",
-          display: "block",
-          left: "20px",
-          zIndex: 1,
-        }}
-        onClick={onClick}
-      >
-        <span className="custom-arrow">Prev</span>
-      </div>
-    );
-  };
-
-  const slides = [
-    {
-      url: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Pink_flower.jpg",
-      alt: "Alternative text for image 1",
-    },
-    {
-      url: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Pink_flower.jpg",
-      alt: "Alternative text for image 2",
-    },
-    {
-      url: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Pink_flower.jpg",
-      alt: "Alternative text for image 1",
-    },
-    {
-      url: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Pink_flower.jpg",
-      alt: "Alternative text for image 2",
-    },
-  ];
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    nextArrow: <CustomNextArrow />,
-    prevArrow: <CustomPrevArrow />,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-    ],
-  };
   return (
     <div>
       <div>
@@ -179,11 +77,11 @@ const About = () => {
       </div>
       {/* Full Screen Search End */}
       {/* About Start */}
-      <div className="container-xxl py-5">
-        <div className="container px-lg-5">
+      <div className="container py-5">
+        <div className="container ">
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div className="section-title position-relative mb-4 pb-2">
+              <div className=" position-relative mb-4 pb-2">
                 <h6 className="position-relative text-primary ps-4">
                   About Us
                 </h6>
@@ -279,11 +177,11 @@ const About = () => {
       </div>
       {/* About End */}
       {/* Newsletter Start */}
-      <div
-        className="container-xxl bg-primary newsletter my-5 wow fadeInUp"
+      {/* <div
+        className="container bg-primary newsletter my-5 wow fadeInUp"
         data-wow-delay="0.1s"
       >
-        <div className="container px-lg-5">
+        <div className="container ">
           <div className="row align-items-center" style={{ height: 250 }}>
             <div className="col-12 col-md-6">
               <h3 className="text-white">Ready to get started</h3>
@@ -305,67 +203,105 @@ const About = () => {
                 </button>
               </div>
             </div>
-            <div className="col-md-6 text-center mb-n5 d-none d-md-block">
+            <div className="col-md-6 text-center  d-none d-md-block">
               <img
-                className="img-fluid mt-5"
+                className="img-fluid"
                 style={{ height: 250 }}
                 src="img/newsletter.png"
               />
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Newsletter End */}
       {/* Team Start */}
-      {/* <div className="slider-section">
-        <Slider {...settings}>
-          {slides.map((slide, index) => (
-            <div key={index} className="slide-item">
-              <img src={slide.url} alt={slide.alt} />
-            </div>
-          ))}
-        </Slider>
-      </div> */}
-
-<div className="container-xxl py-5">
-      <div className="container px-lg-5">
-        <div className="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-          <h2 className="mt-2">Our Client Logo's</h2>
-        </div>
-        <div className="row wow fadeInUp" data-wow-delay="0.1s">
-          <div className="col-12 text-center">
-            <ul className="list-inline" id="portfolio-flters">
-              <li className={`btn px-3 pe-4 ${filter === 'all' && 'active'}`} onClick={() => setFilter("all")}>All</li>
-              <li className={`btn px-3 pe-4 ${filter === 'design' && 'active'}`} onClick={() => setFilter("design")}>Design</li>
-              <li className={`btn px-3 pe-4 ${filter === 'development' && 'active'}`} onClick={() => setFilter("development")}>Development</li>
-            </ul>
-          </div>
-        </div>
-        <div className="row g-4 portfolio-container">
-          {limitedPortfolioItems.map(item => (
-            <div key={item.id} className={`col-lg-4 col-md-6 portfolio-item ${item.category}`}>
-              <div className="position-relative rounded overflow-hidden">
-                <img className="img-fluid w-100" src={item.imageUrl} alt="" />
-                <div className="portfolio-overlay">
-                  <a className="btn btn-light" href={item.imageUrl} data-lightbox="portfolio">
-                    <i className="fa fa-plus fa-2x text-primary"></i>
-                  </a>
-                  <div className="mt-auto">
-                    <small className="text-white">
-                      <i className="fa fa-folder me-2"></i>
-                      {item.category}
-                    </small>
-                    <a className="h5 d-block text-white mt-1 mb-0" href="#">
-                      {item.projectName}
-                    </a>
-                  </div>
+      <div className="container bg-primary  wow fadeInUp "style={{height:'350px'}} >
+        <div className="container py-5 ">
+          <AliceCarousel
+            responsive={{
+              0: { items: 1 },
+              768: { items: 2 },
+              1024: { items: 3 },
+            }}
+            autoPlay
+            autoPlayInterval={2000}
+            infinite
+          >
+            <div className="testimonial-item bg-transparent  border rounded text-white p-4">
+              <i className="fa fa-quote-left fa-2x mb-3" />
+              <p>
+                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
+                stet amet eirmod eos labore diam
+              </p>
+              <div className="d-flex align-items-center">
+                <img
+                  className="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/testimonial-1.jpg"
+                  style={{ width: 50, height: 50 }}
+                />
+                <div className="ps-3">
+                  <h6 className="text-white mb-1">Client Name</h6>
+                  <small>Profession</small>
                 </div>
               </div>
             </div>
-          ))}
+            <div className="testimonial-item bg-transparent border rounded text-white p-4">
+              <i className="fa fa-quote-left fa-2x mb-3" />
+              <p>
+                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
+                stet amet eirmod eos labore diam
+              </p>
+              <div className="d-flex align-items-center">
+                <img
+                  className="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/testimonial-2.jpg"
+                  style={{ width: 50, height: 50 }}
+                />
+                <div className="ps-3">
+                  <h6 className="text-white mb-1">Client Name</h6>
+                  <small>Profession</small>
+                </div>
+              </div>
+            </div>
+            <div className=" testimonial-item bg-transparent border rounded text-white p-4">
+              <i className="fa fa-quote-left fa-2x mb-3" />
+              <p>
+                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
+                stet amet eirmod eos labore diam
+              </p>
+              <div className="d-flex align-items-center">
+                <img
+                  className="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/testimonial-3.jpg"
+                  style={{ width: 50, height: 50 }}
+                />
+                <div className="ps-3">
+                  <h6 className="text-white mb-1">Client Name</h6>
+                  <small>Profession</small>
+                </div>
+              </div>
+            </div>
+            <div className="testimonial-item bg-transparent  border rounded text-white p-4">
+              <i className="fa fa-quote-left fa-2x mb-3" />
+              <p>
+                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
+                stet amet eirmod eos labore diam
+              </p>
+              <div className="d-flex align-items-center">
+                <img
+                  className="img-fluid flex-shrink-0 rounded-circle"
+                  src="img/testimonial-4.jpg"
+                  style={{ width: 50, height: 50 }}
+                />
+                <div className="ps-3">
+                  <h6 className="text-white mb-1">Client Name</h6>
+                  <small>Profession</small>
+                </div>
+              </div>
+            </div>
+          </AliceCarousel>
         </div>
       </div>
-    </div>
     </div>
   );
 };

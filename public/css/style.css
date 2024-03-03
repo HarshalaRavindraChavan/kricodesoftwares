@@ -534,7 +534,21 @@ h6,
     border-right: none;
 }
 
-.slides {
-    /* height: 100px; */
+  .testimonial-item {
+   background-color: wheat;
+    border-radius: 5px;
+    width: 350px;
+    border: 2px solid white;
+    height: 250px;
+    border: 8px solid white;
+    margin-left: 30px;
+    padding: 50px;
+  }
+ 
+  
+    
+  
+  
+  
 
-}
+  

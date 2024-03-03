@@ -3,28 +3,22 @@ import React from "react";
 const ServicesCard2 = () => {
   return (
     <div>
-      <div className="container  p-0">
-        <div className="container-xxl py-5 bg-primary hero-header mb-5">
-          <div className="container my-5 py-5 px-lg-5">
-            <div className="row g-5 py-5">
-              <div className="col-12 text-center">
-                <h1 className="text-white animated zoomIn">Services</h1>
-                <hr className="bg-white mx-auto mt-0" style={{ width: 90 }} />
-                <nav aria-label="breadcrumb"></nav>
-              </div>
+      <div className="container-fluid  py-5 bg-primary hero-header mb-5">
+        <div className="container my-5 py-5 px-lg-5">
+          <div className="row g-5 py-5">
+            <div className="col-12 text-center">
+              <h1 className="text-white animated zoomIn">Services</h1>
+              <hr className="bg-white mx-auto mt-0" style={{ width: 90 }} />
+              <nav aria-label="breadcrumb"></nav>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="container-xxl py-5">
-        <div className="container px-lg-5">
+      <div className="container py-5">
+        <div className="container ">
           <div className="row g-5">
-            <div
-              className="col-lg-6 wow fadeInUp"
-              data-wow-delay="0.1s"
-              
-            >
+            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className=" position-relative">
                 <h2 className="mt-2">Data Science Solutions</h2>
               </div>
@@ -84,7 +78,7 @@ const ServicesCard2 = () => {
                 className="img-fluid wow zoomIn"
                 data-wow-delay="0.5s"
                 src="https://media.licdn.com/dms/image/D4D12AQFHPmRYaRtnwg/article-cover_image-shrink_720_1280/0/1693052551743?e=2147483647&v=beta&t=GtSivlN7TrR6unT7ymYpDiyoBKYbipZbX81Quqx8KPg"
-                style={{borderRadius:"30px"}}
+                style={{ borderRadius: "30px" }}
               />
             </div>
           </div>

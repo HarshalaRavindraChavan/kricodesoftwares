@@ -22,7 +22,7 @@ const Footer = () => {
               <i className="fa fa-envelope me-3" />
               kricodesoftwares@gmail.com{" "}
             </p>
-            <div className="d-flex pt-2" style={{paddingLeft:"50px"}}>
+            <div className="d-flex pt-2" style={{ paddingLeft: "50px" }}>
               {/* <a className="btn btn-outline-light btn-social" href="">
                 <i className="fab fa-twitter" />
               </a> */}
@@ -53,19 +53,21 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-md-6 col-lg-3">
-            <h5 className="text-white mb-4" style={{paddingRight:"150px"}}>Popular Link</h5>
-            <Link className="btn btn-link" to="/about">
-              About Us
-            </Link>
-            <Link className="btn btn-link"to="/service">
-           Services
-            </Link>
-            <Link className="btn btn-link" to="/team">
-          Our Team
-            </Link>
-            <Link className="btn btn-link" to="/contact">
-            Contact Us
-            </Link>
+            <h5 className="text-white mb-4  ">Popular Link</h5>
+            <div style={{marginLeft:'80px'}}>
+              <Link className="btn btn-link" to="/about">
+                About Us
+              </Link>
+              <Link className="btn btn-link" to="/service">
+                Services
+              </Link>
+              <Link className="btn btn-link" to="/team">
+                Our Team
+              </Link>
+              <Link className="btn btn-link" to="/contact">
+                Contact Us
+              </Link>
+            </div>
           </div>
           {/* <div className="col-md-6 col-lg-3">
         <h5 className="text-white mb-4">Project Gallery</h5>

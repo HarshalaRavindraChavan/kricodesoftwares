@@ -2,10 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
- <div>
-  <div className="container-xxl position-relative p-0">
-   
-    <div className="container-xxl py-5 bg-primary hero-header mb-5">
+
+ <div> 
+    <div className="container-fluid py-5 bg-primary hero-header mb-5">
       <div className="container my-5 py-5 px-lg-5">
         <div className="row g-5 py-5">
           <div className="col-12 text-center">
@@ -22,7 +21,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  </div>
+  
   {/* Navbar & Hero End */}
   {/* Full Screen Search Start */}
   <div className="modal fade" id="searchModal" tabIndex={-1}>
@@ -42,8 +41,8 @@ const Contact = () => {
   </div>
   {/* Full Screen Search End */}
   {/* Contact Start */}
-  <div className="container-xxl py-5">
-    <div className="container px-lg-5">
+  <div className="container py-5">
+    <div className="container ">
       <div className="row justify-content-center">
         <div className="col-lg-7">
           <div className="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
