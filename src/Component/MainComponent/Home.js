@@ -241,7 +241,7 @@ const Home = () => {
                   and business growth. Whether you're looking to extract
                   actionable insights, build predictive models, or optimize
                   processes, our team of data scientists is here to help you
-                  harness the power of your data.
+                  harness.
                 </p>
                 <Link
                   className="btn px-3 mt-auto mx-auto"
@@ -266,7 +266,7 @@ const Home = () => {
                   usability testing, our experienced QA team employs rigorous
                   testing methodologies and best practices to identify defects,
                   Complexities in testing modern applications like mobile apps,
-                  IoT devices, and cloud-based
+                  IoT devices.
                 </p>
                 <Link
                   className="btn px-3 mt-auto mx-auto"
@@ -291,7 +291,7 @@ const Home = () => {
                   From concept to launch, our expert team of mobile app
                   developers collaborates closely with you to design, develop,
                   and deploy custom mobile solutions that drive user engagement,
-                  satisfaction, and retention.
+                  satisfaction.
                 </p>
                 <Link
                   className="btn px-3 mt-auto mx-auto"

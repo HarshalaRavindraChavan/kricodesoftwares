@@ -7,13 +7,17 @@ const Header = () => {
     <div className="container-fluid p-0 w-auto ">
       <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <a href className="navbar-brand p-0">
-          <h1 className="p-2" >
+          <h1 className="p-2">
             <img
-              src={require('../../Component/Images/kricode-logo-ORIGINAL (2).png')}
+              src={require("../../Component/Images/kricode-logo-ORIGINAL (2).png")}
               alt=""
               height="200"
               width="200"
-              style={{mixBlendMode:'normal',backgroundColor:'white',borderRadius:'10px'}}
+              style={{
+                mixBlendMode: "normal",
+                backgroundColor: "white",
+                borderRadius: "10px",
+              }}
             />
           </h1>
         </a>

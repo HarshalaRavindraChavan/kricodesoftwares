@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
@@ -12,7 +13,7 @@ const Contact = () => {
             <hr className="bg-white mx-auto mt-0" style={{width: 90}} />
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb justify-content-center">
-                <li className="breadcrumb-item"><a className="text-white" href="#">Home</a></li>
+                <li className="breadcrumb-item"><Link className="text-white" to="/">Home</Link></li>
                 <li className="breadcrumb-item"><a className="text-white" href="#">Pages</a></li>
                 <li className="breadcrumb-item text-white active" aria-current="page">Contact</li>
               </ol>

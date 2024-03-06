@@ -9,21 +9,18 @@ const AboutCard = () => {
     };
   return (
     <div>
-      <div className="container-xxl py-5 bg-primary hero-header mb-5">
-        <div className="container my-5 py-5 px-lg-5">
+      <div className="container-fluid py-5 bg-primary hero-header mb-5">
+        <div className="container my-5 py-5 ">
           <div className="row g-5 py-5">
             <div className="col-12 text-center">
               <h1 className="text-white animated zoomIn">About Us</h1>
-              <hr className="bg-white mx-auto mt-0"  />
-              <nav aria-label="breadcrumb">
-             
-              </nav>
+            
             </div>
           </div>
         </div>
       </div>
-      <div className="container-xxl py-5">
-        <div className="container px-lg-5">
+      <div className="container py-5">
+        <div className="container ">
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className="section-title position-relative mb-4 pb-2">
@@ -75,7 +72,7 @@ const AboutCard = () => {
                   </h6>
                 </div>
               </div>
-              <div className="d-flex align-items-center mt-4" style={{paddingLeft:"170px"}}>
+              <div className="d-flex align-items-center mt-4" >
                
                 <a
                   className="btn btn-outline-primary btn-square me-3"

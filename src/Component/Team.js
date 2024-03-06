@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Team = () => {
   return (
@@ -13,9 +14,9 @@ const Team = () => {
                   <nav aria-label="breadcrumb">
                     <ol className="breadcrumb justify-content-center">
                       <li className="breadcrumb-item">
-                        <a className="text-white" href="#">
+                        <Link className="text-white" to="/">
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li className="breadcrumb-item">
                         <a className="text-white" href="#">

@@ -22,20 +22,19 @@ const About = () => {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb justify-content-center">
                     <li className="breadcrumb-item">
-                      <a className="text-white" href="#">
+                      <Link className="text-white" to="/">
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li className="breadcrumb-item">
                       <a className="text-white" href="#">
                         Pages
                       </a>
                     </li>
-                    <li
-                      className="breadcrumb-item text-white active"
-                      aria-current="page"
-                    >
-                      About
+                    <li className="breadcrumb-item text-white active">
+                      <Link className="text-white" to="/about">
+                        About
+                      </Link>
                     </li>
                   </ol>
                 </nav>
@@ -226,6 +225,8 @@ const About = () => {
             autoPlay
             autoPlayInterval={2000}
             infinite
+            disableDotsControls
+            disableButtonsControls
           >
             <div className="testimonial-item bg-transparent  border rounded text-white p-4">
               <i className="fa fa-quote-left fa-2x mb-3" />
