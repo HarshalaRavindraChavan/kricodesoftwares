@@ -7,12 +7,14 @@ const Header = () => {
     <div className="container-fluid p-0 w-auto ">
       <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <a href className="navbar-brand p-0">
-          <h1 className="ml-4">
+          <h1 className="p-2" >
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Zu3irG3OA76GmYYQxM7HAirpkGrsyAI5btWgv7xKdw&s"
-              alt="Logo"
+              src={require('../../Component/Images/kricode-logo-ORIGINAL (2).png')}
+              alt=""
+              height="200"
+              width="200"
+              style={{mixBlendMode:'normal',backgroundColor:'white',borderRadius:'10px'}}
             />
-            {/* <img src="\kricode-logo-ORIGINAL(2).png" alt="" height="22" /> */}
           </h1>
         </a>
         <button
@@ -36,7 +38,7 @@ const Header = () => {
             <Link to="/service" className="nav-item nav-link">
               Services
             </Link>
-          
+
             <Link to="/team" className="nav-item nav-link">
               Our Team
             </Link>
