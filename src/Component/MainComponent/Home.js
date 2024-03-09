@@ -13,37 +13,41 @@ const Home = () => {
     {
       id: 1,
       category: "design",
-      imageUrl: "img/portfolio-1.jpg",
+      imageUrl:
+        "https://www.idexxcurrents.com/media/filer_public_thumbnails/filer_public/58/f0/58f0ba1e-f6aa-4378-8736-ac64d9b406df/quality-assurance-servic_1.jpg__800x500_q80_crop_subject_location-570%2C252_subsampling-2.jpg",
       // projectName: "Project 1",
     },
     {
       id: 2,
       category: "development",
-      imageUrl: "img/portfolio-2.jpg",
+      imageUrl:
+        "https://decorosoft.com/wp-content/uploads/2024/01/mobile-app-developments-1.jpg",
       // projectName: "Project 2",
     },
     {
       id: 3,
       category: "design",
-      imageUrl: "img/portfolio-3.jpg",
+      imageUrl: "https://miro.medium.com/v2/resize:fit:1358/0*z6LU8OX3pG_-RgVi",
       // projectName: "Project 3",
     },
     {
       id: 4,
       category: "development",
-      imageUrl: "img/portfolio-4.jpg",
+      imageUrl:
+        "https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg",
       // projectName: "Project 4",
     },
     {
       id: 5,
       category: "design",
-      imageUrl: "img/portfolio-3.jpg",
+      imageUrl: "https://thexperts.pk/wp-content/uploads/2021/11/seo-lede.jpg",
       // projectName: "Project 5",
     },
     {
       id: 6,
       category: "development",
-      imageUrl: "img/portfolio-4.jpg",
+      imageUrl:
+        "https://media.licdn.com/dms/image/D4D12AQEv2f5_KSYr5A/article-cover_image-shrink_720_1280/0/1683020912703?e=2147483647&v=beta&t=TNLEYIwy6UN2ZaXMkiPeo5Ig8frpepjVXDgw-NmQyJ8",
       // projectName: "Project 6",
     },
   ];
@@ -63,12 +67,15 @@ const Home = () => {
           <div className="row g-5 py-5">
             <div className="col-lg-6 text-center text-lg-start">
               <h1 className="text-white mb-4 animated zoomIn">
-                All in one SEO tool need to grow your business rapidly
+                Kricode Software Your Trusted Partner For Innovative Software
+                Solutions And Beyond
               </h1>
               <p className="text-white pb-3 animated zoomIn">
-                Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum
-                stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam.
-                Sit diam sit justo amet ipsum vero ipsum clita lorem
+                Kricode Softwares Offers Comprehensive Software Solutions,
+                Including Data Science, Quality Testing, Mobile Apps, And Web
+                Development, Digital Marketing, Full-Stack Web Development. Our
+                Expertise Ensures Innovation And Excellence In Navigating The
+                Digital Landscape For Your Success.
               </p>
               <a
                 href
@@ -83,9 +90,22 @@ const Home = () => {
                 Contact Us
               </Link>
             </div>
-            <div className="col-lg-6 text-center text-lg-start">
+            <div className="col-lg-6 text-center ">
               <img className="img-fluid" src="img/hero.png" alt />
+              {/* <img
+                src={require("../../Component/Images/ino.jpg")}
+                alt=""
+                height="500"
+                width="735"
+                style={{
+                  mixBlendMode: "normal",
+                  paddingBottom:"50px",
+                  backgroundColor: "white",
+                  borderRadius: "20px",
+                }}
+              /> */}
             </div>
+
           </div>
         </div>
       </div>
@@ -98,8 +118,10 @@ const Home = () => {
                 <h6 className="position-relative text-primary ps-4">
                   About Us
                 </h6>
-                <h2 className="mt-2">
-                  The best SEO solution with 10 years of experience
+                <h2 className="mt-2" style={{ fontSize: "20px" }}>
+                  Building Tomorrow's Digital Landscape Kricode Softwares,
+                  Leading with Data Science, Quality Testing, Mobile App, And
+                  Web Development Expertise
                 </h2>
               </div>
               <p className="mb-4">
@@ -114,32 +136,52 @@ const Home = () => {
                 <div className="col-sm-4">
                   <h6 className="mb-3">
                     <i className="fa fa-check text-primary me-2" />
-                    Award Winning
+                    Passionate
                   </h6>
                   <h6 className="mb-0">
                     <i className="fa fa-check text-primary me-2" />
-                    Professional Staff
+                    Unstoppable
                   </h6>
                 </div>
                 <div className="col-sm-4">
                   <h6 className="mb-3">
                     <i className="fa fa-check text-primary me-2" />
-                    24/7 Support
+                    Limitless possibilities
                   </h6>
                   <h6 className="mb-0">
                     <i className="fa fa-check text-primary me-2" />
-                    Fair Prices
+                    Future-proof
                   </h6>
                 </div>
 
                 <div className="col-sm-4">
                   <h6 className="mb-3">
                     <i className="fa fa-check text-primary me-2" />
-                    24/7 Support
+                    Vision-Driven
                   </h6>
                   <h6 className="mb-0">
                     <i className="fa fa-check text-primary me-2" />
-                    Fair Prices
+                    Empowering
+                  </h6>
+                </div>
+
+                <div className="col-sm-4">
+                  <h6 className="mb-3">
+                    <i className="fa fa-check text-primary me-2" />
+                    Futuristic
+                  </h6>
+                </div>
+
+                <div className="col-sm-4">
+                  <h6 className="mb-3">
+                    <i className="fa fa-check text-primary me-2" />
+                    Game-Changing
+                  </h6>
+                </div>
+                <div className="col-sm-4">
+                  <h6 className="mb-3">
+                    <i className="fa fa-check text-primary me-2" />
+                    Unleashing Potential
                   </h6>
                 </div>
               </div>
@@ -198,7 +240,10 @@ const Home = () => {
             <h6 className="position-relative d-inline text-primary ps-4">
               Our Services
             </h6>
-            <h2 className="mt-2">What Solutions We Provide</h2>
+            <h2 className="mt-2" style={{ fontSize: "20px" }}>
+              Innovate, Evolve, Succeed: Your Comprehensive Hub for Data
+              Science, Quality Testing, Mobile & Web Development Solutions.
+            </h2>
           </div>
           <div className="row g-4">
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -356,7 +401,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container py-5">
+      {/* <div className="container py-5">
         <div className="container ">
           <div
             className=" position-relative text-center mb-5 pb-2 wow fadeInUp"
@@ -511,12 +556,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="container-fluid py-5">
         <div className="container ">
           <div className="row wow fadeInUp">
-          <h2 className=" position-relative text-center wow fadeInUp">Our Client Logo's</h2>
+            <h2 className=" position-relative text-center wow fadeInUp">
+              Our Client Logo's
+            </h2>
             <div className="col-12 text-center">
               <ul className="list-inline" id="portfolio-flters">
                 <li

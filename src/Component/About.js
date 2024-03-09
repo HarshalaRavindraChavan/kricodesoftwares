@@ -84,8 +84,10 @@ const About = () => {
                 <h6 className="position-relative text-primary ps-4">
                   About Us
                 </h6>
-                <h2 className="mt-2">
-                  The best SEO solution with 10 years of experience
+                <h2 className="mt-2" style={{fontSize:'20px'}}>
+                  Building Tomorrow's Digital Landscape: Kricode Softwares,
+                  Leading with Data Science, Quality Testing, Mobile App, and
+                  Web Development Expertise
                 </h2>
               </div>
               <p className="mb-4">
@@ -100,44 +102,67 @@ const About = () => {
                 <div className="col-sm-4">
                   <h6 className="mb-3">
                     <i className="fa fa-check text-primary me-2" />
-                    Award Winning
+                    Passionate
                   </h6>
                   <h6 className="mb-0">
                     <i className="fa fa-check text-primary me-2" />
-                    Professional Staff
+                    Unstoppable
                   </h6>
                 </div>
                 <div className="col-sm-4">
                   <h6 className="mb-3">
                     <i className="fa fa-check text-primary me-2" />
-                    24/7 Support
+                    Limitless possibilities
                   </h6>
                   <h6 className="mb-0">
                     <i className="fa fa-check text-primary me-2" />
-                    Fair Prices
+                    Future-proof
                   </h6>
                 </div>
 
                 <div className="col-sm-4">
                   <h6 className="mb-3">
                     <i className="fa fa-check text-primary me-2" />
-                    24/7 Support
+                    Vision-Driven
                   </h6>
                   <h6 className="mb-0">
                     <i className="fa fa-check text-primary me-2" />
-                    Fair Prices
+                    Empowering
                   </h6>
+                </div>
+
+                <div className="col-sm-4">
+                  <h6 className="mb-3">
+                    <i className="fa fa-check text-primary me-2" />
+                    Futuristic
+                  </h6>
+                 
+                </div>
+
+                <div className="col-sm-4">
+                  <h6 className="mb-3">
+                    <i className="fa fa-check text-primary me-2" />
+                  Game-Changing
+                  </h6>
+                  
+                </div>
+                <div className="col-sm-4">
+                  <h6 className="mb-3">
+                    <i className="fa fa-check text-primary me-2" />
+                    Unleashing Potential
+                  </h6>
+                 
                 </div>
               </div>
               <div className="d-flex align-items-center mt-4">
-                <Link
+                {/* <Link
                   className="btn btn-primary rounded-pill px-4 me-3"
                   onClick={openDetailsPage}
                   target="_blank"
                   to="/aboutcard"
                 >
                   Read More
-                </Link>
+                </Link> */}
                 <a
                   className="btn btn-outline-primary btn-square me-3"
                   href="https://www.facebook.com/profile.php?id=61556115733343"
@@ -214,7 +239,10 @@ const About = () => {
       </div>
       {/* Newsletter End */}
       {/* Team Start */}
-      <div className="container bg-primary  wow fadeInUp "style={{height:'350px'}} >
+      <div
+        className="container bg-primary  wow fadeInUp "
+        style={{ height: "350px" }}
+      >
         <div className="container py-5 ">
           <AliceCarousel
             responsive={{
