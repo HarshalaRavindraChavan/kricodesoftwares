@@ -241,7 +241,7 @@ const Home = () => {
               Our Services
             </h6>
             <h2 className="mt-2" style={{ fontSize: "20px" }}>
-              Innovate Evolve Succeed Your Comprehensive Hub F::or Data
+              Innovate Evolve Succeed Your Comprehensive Hub For Data
               Science Quality Testing Mobile & Web Development Solutions.
             </h2>
           </div>
