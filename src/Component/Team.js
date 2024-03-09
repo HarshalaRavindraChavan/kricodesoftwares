@@ -3,73 +3,71 @@ import { Link } from "react-router-dom";
 
 const Team = () => {
   return (
-    
-      <div>
-        <div className="container-fluid py-5 bg-primary hero-header mb-5">
-            <div className="container my-5 py-5 px-lg-5">
-              <div className="row g-5 py-5">
-                <div className="col-12 text-center">
-                  <h1 className="text-white animated zoomIn">Our Team</h1>
-                  <hr className="bg-white mx-auto mt-0" style={{ width: 90 }} />
-                  <nav aria-label="breadcrumb">
-                    <ol className="breadcrumb justify-content-center">
-                      <li className="breadcrumb-item">
-                        <Link className="text-white" to="/">
-                          Home
-                        </Link>
-                      </li>
-                      <li className="breadcrumb-item">
-                        <a className="text-white" href="#">
-                          Pages
-                        </a>
-                      </li>
-                      <li
-                        className="breadcrumb-item text-white active"
-                        aria-current="page"
-                      >
-                        Team
-                      </li>
-                    </ol>
-                  </nav>
-                </div>
-              </div>
+    <div>
+      <div className="container-fluid py-5 bg-primary hero-header mb-5">
+        <div className="container my-5 py-5 px-lg-5">
+          <div className="row g-5 py-5">
+            <div className="col-12 text-center">
+              <h1 className="text-white animated zoomIn">Our Team</h1>
+              <hr className="bg-white mx-auto mt-0" style={{ width: 90 }} />
+              <nav aria-label="breadcrumb">
+                <ol className="breadcrumb justify-content-center">
+                  <li className="breadcrumb-item">
+                    <Link className="text-white" to="/">
+                      Home
+                    </Link>
+                  </li>
+                  <li className="breadcrumb-item">
+                    <a className="text-white" href="#">
+                      Pages
+                    </a>
+                  </li>
+                  <li
+                    className="breadcrumb-item text-white active"
+                    aria-current="page"
+                  >
+                    Team
+                  </li>
+                </ol>
+              </nav>
             </div>
-          
+          </div>
         </div>
-        {/* Navbar & Hero End */}
-        {/* Full Screen Search Start */}
-        <div className="modal fade" id="searchModal" tabIndex={-1}>
-          <div className="modal-dialog modal-fullscreen">
-            <div
-              className="modal-content"
-              style={{ background: "rgba(29, 29, 39, 0.7)" }}
-            >
-              <div className="modal-header border-0">
-                <button
-                  type="button"
-                  className="btn bg-white btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
+      </div>
+      {/* Navbar & Hero End */}
+      {/* Full Screen Search Start */}
+      <div className="modal fade" id="searchModal" tabIndex={-1}>
+        <div className="modal-dialog modal-fullscreen">
+          <div
+            className="modal-content"
+            style={{ background: "rgba(29, 29, 39, 0.7)" }}
+          >
+            <div className="modal-header border-0">
+              <button
+                type="button"
+                className="btn bg-white btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              />
+            </div>
+            <div className="modal-body d-flex align-items-center justify-content-center">
+              <div className="input-group" style={{ maxWidth: 600 }}>
+                <input
+                  type="text"
+                  className="form-control bg-transparent border-light p-3"
+                  placeholder="Type search keyword"
                 />
-              </div>
-              <div className="modal-body d-flex align-items-center justify-content-center">
-                <div className="input-group" style={{ maxWidth: 600 }}>
-                  <input
-                    type="text"
-                    className="form-control bg-transparent border-light p-3"
-                    placeholder="Type search keyword"
-                  />
-                  <button className="btn btn-light px-4">
-                    <i className="bi bi-search" />
-                  </button>
-                </div>
+                <button className="btn btn-light px-4">
+                  <i className="bi bi-search" />
+                </button>
               </div>
             </div>
           </div>
         </div>
-        {/* Full Screen Search End */}
-        {/* Team Start */}
-        {/* <div className="container py-5">
+      </div>
+      {/* Full Screen Search End */}
+      {/* Team Start */}
+      {/* <div className="container py-5">
           <div className="container ">
             <div
               className="section-title position-relative text-center mb-5 pb-2 wow fadeInUp"
@@ -225,84 +223,31 @@ const Team = () => {
             </div>
           </div>
         </div> */}
-  <div className="container py-5">
+      <div className="container py-5">
         <div className="container ">
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className=" position-relative mb-4 pb-2">
                 <h6 className="position-relative text-primary ps-4">
-                  About Us
+                  Our Team{" "}
                 </h6>
-                <h2 className="mt-2" style={{fontSize:'20px'}}>
-                  Building Tomorrow's Digital Landscape: Kricode Softwares,
-                  Leading with Data Science, Quality Testing, Mobile App, and
-                  Web Development Expertise
+                <h2 className="mt-2" style={{ fontSize: "20px" }}>
+                  Powered By Passion Fueled by Collaboration Your Success Iss
+                  Our Team's Triumph
                 </h2>
               </div>
               <p className="mb-4">
-                At Kricode Software, we are passionate about crafting innovative
-                digital solutions that empower businesses to thrive in the
-                ever-evolving digital landscape. With a focus on excellence,
-                creativity, and customer satisfaction, we are committed to
-                delivering cutting-edge software solutions that drive growth,
-                efficiency, and success for our clients.
+                At Kricode Softwares, we're not just a team we're a powerhouse
+                of passion and collaboration. With each member bringing their
+                unique talents to the table, and our trusted partners by our
+                side, we're on a mission to elevate your success to new heights.
+                Together, we innovate, inspire, and ignite possibilities,
+                turning visions into reality and challenges into triumphs. When
+                you partner with us, you're not just getting a solution; you're
+                gaining a dedicated team committed to making your dreams come
+                true.
               </p>
-              <div className="row g-3">
-                <div className="col-sm-4">
-                  <h6 className="mb-3">
-                    <i className="fa fa-check text-primary me-2" />
-                    Passionate
-                  </h6>
-                  <h6 className="mb-0">
-                    <i className="fa fa-check text-primary me-2" />
-                    Unstoppable
-                  </h6>
-                </div>
-                <div className="col-sm-4">
-                  <h6 className="mb-3">
-                    <i className="fa fa-check text-primary me-2" />
-                    Limitless possibilities
-                  </h6>
-                  <h6 className="mb-0">
-                    <i className="fa fa-check text-primary me-2" />
-                    Future-proof
-                  </h6>
-                </div>
 
-                <div className="col-sm-4">
-                  <h6 className="mb-3">
-                    <i className="fa fa-check text-primary me-2" />
-                    Vision-Driven
-                  </h6>
-                  <h6 className="mb-0">
-                    <i className="fa fa-check text-primary me-2" />
-                    Empowering
-                  </h6>
-                </div>
-
-                <div className="col-sm-4">
-                  <h6 className="mb-3">
-                    <i className="fa fa-check text-primary me-2" />
-                    Futuristic
-                  </h6>
-                 
-                </div>
-
-                <div className="col-sm-4">
-                  <h6 className="mb-3">
-                    <i className="fa fa-check text-primary me-2" />
-                  Game-Changing
-                  </h6>
-                  
-                </div>
-                <div className="col-sm-4">
-                  <h6 className="mb-3">
-                    <i className="fa fa-check text-primary me-2" />
-                    Unleashing Potential
-                  </h6>
-                 
-                </div>
-              </div>
               <div className="d-flex align-items-center mt-4">
                 {/* <Link
                   className="btn btn-primary rounded-pill px-4 me-3"
@@ -342,16 +287,13 @@ const Team = () => {
               <img
                 className="img-fluid wow zoomIn"
                 data-wow-delay="0.5s"
-                src="img/about.jpg"
+                src="https://us.123rf.com/450wm/pressmaster/pressmaster1312/pressmaster131200084/24203848-group-of-joyful-business-partners-looking-at-camera-with-smiles-in-office.jpg?ver=6"
               />
             </div>
           </div>
         </div>
       </div>
-
-        
-      </div>
-    
+    </div>
   );
 };
 

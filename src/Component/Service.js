@@ -83,13 +83,13 @@ const Services = () => {
             <h6 className="position-relative d-inline text-primary ps-4">
               Our Services
             </h6>
-            <h2 className="mt-2">What Solutions We Provide</h2>
+            <h2 className="mt-2">Innovate. Elevate. Dominate: Where Data Science, Quality Testing, Mobile & Web Development Unite</h2>
           </div>
           <div className="row g-4">
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x"></i>
+                  <i className="fas fa-search fa-2x"></i>
                 </div>
                   <div>
                     <h5 className="mb-3">Search Engine Optimization (SEO)</h5>
@@ -116,7 +116,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x" />
+                  <i className="fas fa-cogs fa-2x" />
                 </div>
                 <h5 className="mb-3">Data Science Solutions</h5>
                 <p>
@@ -141,7 +141,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x" />
+                  <i className="fas fa-check-circle fa-2x" />
                 </div>
                 <h5 className="mb-3">Quality Assurance and Testing</h5>
                 <p>
@@ -166,7 +166,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x" />
+                  <i className="fas fa-mobile-alt fa-2x" />
                 </div>
                 <h5 className="mb-3">Mobile Application Development</h5>
                 <p>
@@ -191,7 +191,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x" />
+                  <i className="fas fa-code fa-2x" />
                 </div>
                 <h5 className="mb-3">Web Development Solutions</h5>
                 <p>
@@ -216,7 +216,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x" />
+                  <i className="fas fa-cubes fa-2x" />
                 </div>
                 <h5 className="mb-3"> Full-Stack Web Development Solutions</h5>
                 <p>

@@ -545,6 +545,30 @@ h6,
     padding: 50px;
   }
  
+
+
+
+  .image-container {
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* height: 500px; Set the height of the container */
+  }
+  
+  .animated-image {
+    /* position: absolute; */
+    /* top: 0; Start the image at the top of its container */
+    animation: upDownAnimation 1s infinite alternate; /* Change the duration (5s) as needed */
+  }
+  
+  @keyframes upDownAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(30px); /* Adjust the distance the image moves */
+    }
+  }
+  
   
     
   

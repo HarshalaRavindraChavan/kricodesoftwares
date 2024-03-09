@@ -21,7 +21,7 @@ const Home = () => {
       id: 2,
       category: "development",
       imageUrl:
-        "https://decorosoft.com/wp-content/uploads/2024/01/mobile-app-developments-1.jpg",
+        "https://www.earthtechy.com/wp-content/uploads/2022/01/Why-Mobile-App-Development-Is-Important-for-Business.png",
       // projectName: "Project 2",
     },
     {
@@ -40,7 +40,7 @@ const Home = () => {
     {
       id: 5,
       category: "design",
-      imageUrl: "https://thexperts.pk/wp-content/uploads/2021/11/seo-lede.jpg",
+      imageUrl: "https://www.clarifybusiness.com/wp-content/uploads/2023/11/Advanced-SEO-Tactics.png",
       // projectName: "Project 5",
     },
     {
@@ -90,22 +90,22 @@ const Home = () => {
                 Contact Us
               </Link>
             </div>
-            <div className="col-lg-6 text-center ">
-              <img className="img-fluid" src="img/hero.png" alt />
-              {/* <img
-                src={require("../../Component/Images/ino.jpg")}
+            <div className="col-lg-6 text-center animated-image" >
+              {/* <img className="img-fluid" src="img/hero.png" alt /> */}
+              <img
+           
+                src={require("../../Component/Images/2202757-removebg-preview (4).png")}
                 alt=""
                 height="500"
                 width="735"
                 style={{
                   mixBlendMode: "normal",
-                  paddingBottom:"50px",
-                  backgroundColor: "white",
+                  paddingBottom:'100px',
+                  // backgroundColor: "white",
                   borderRadius: "20px",
                 }}
-              /> */}
+              />
             </div>
-
           </div>
         </div>
       </div>
@@ -249,7 +249,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x"></i>
+                  <i className="fas fa-search  fa-2x"></i>
                 </div>
                 <div>
                   <h5 className="mb-3">Search Engine Optimization (SEO)</h5>
@@ -276,7 +276,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x" />
+                  <i className="fas fa-cogs fa-2x" />
                 </div>
                 <h5 className="mb-3">Data Science Solutions</h5>
                 <p>
@@ -301,7 +301,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x" />
+                  <i className="fas fa-check-circle fa-2x" />
                 </div>
                 <h5 className="mb-3">Quality Assurance and Testing</h5>
                 <p>
@@ -326,7 +326,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x" />
+                  <i className="fas fa-mobile-alt fa-2x" />
                 </div>
                 <h5 className="mb-3">Mobile Application Development</h5>
                 <p>
@@ -351,7 +351,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x" />
+                  <i className="fas fa-code fa-2x" />
                 </div>
                 <h5 className="mb-3">Web Development Solutions</h5>
                 <p>
@@ -376,7 +376,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
                 <div className="service-icon flex-shrink-0">
-                  <i className="fa fa-home fa-2x" />
+                  <i className="fas fa-cubes fa-2x" />
                 </div>
                 <h5 className="mb-3"> Full-Stack Web Development Solutions</h5>
                 <p>
