@@ -77,7 +77,7 @@ const ServicesCard2 = () => {
               <img
                 className="img-fluid wow zoomIn"
                 data-wow-delay="0.5s"
-                src="https://media.licdn.com/dms/image/D4D12AQFHPmRYaRtnwg/article-cover_image-shrink_720_1280/0/1693052551743?e=2147483647&v=beta&t=GtSivlN7TrR6unT7ymYpDiyoBKYbipZbX81Quqx8KPg"
+                src="https://media.licdn.com/dms/image/D5612AQEsZgunaW298Q/article-cover_image-shrink_600_2000/0/1685946598300?e=2147483647&v=beta&t=SbyU-KhLTfE0egHZ_QvryZ8hbApj5NiLZvyNPTFBcmM"
                 style={{ borderRadius: "30px" }}
               />
             </div>

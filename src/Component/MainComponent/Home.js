@@ -9,6 +9,14 @@ const Home = () => {
     setShowDetails(true);
   };
 
+  const handleButtonClick = () => {
+    // Apply zoom-in animation to all images
+    const images = document.querySelectorAll(".image");
+    images.forEach((image) => {
+      image.classList.add("zoomIn");
+    });
+  };
+
   const portfolioItems = [
     {
       id: 1,
@@ -16,6 +24,7 @@ const Home = () => {
       imageUrl:
         "https://www.idexxcurrents.com/media/filer_public_thumbnails/filer_public/58/f0/58f0ba1e-f6aa-4378-8736-ac64d9b406df/quality-assurance-servic_1.jpg__800x500_q80_crop_subject_location-570%2C252_subsampling-2.jpg",
       // projectName: "Project 1",
+      className: "zoomIn",
     },
     {
       id: 2,
@@ -23,12 +32,14 @@ const Home = () => {
       imageUrl:
         "https://www.earthtechy.com/wp-content/uploads/2022/01/Why-Mobile-App-Development-Is-Important-for-Business.png",
       // projectName: "Project 2",
+      className: "zoomIn",
     },
     {
       id: 3,
       category: "design",
       imageUrl: "https://miro.medium.com/v2/resize:fit:1358/0*z6LU8OX3pG_-RgVi",
       // projectName: "Project 3",
+      className: "zoomIn",
     },
     {
       id: 4,
@@ -36,12 +47,15 @@ const Home = () => {
       imageUrl:
         "https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg",
       // projectName: "Project 4",
+      className: "zoomIn",
     },
     {
       id: 5,
       category: "design",
-      imageUrl: "https://www.clarifybusiness.com/wp-content/uploads/2023/11/Advanced-SEO-Tactics.png",
+      imageUrl:
+        "https://www.clarifybusiness.com/wp-content/uploads/2023/11/Advanced-SEO-Tactics.png",
       // projectName: "Project 5",
+      className: "zoomIn",
     },
     {
       id: 6,
@@ -49,6 +63,7 @@ const Home = () => {
       imageUrl:
         "https://media.licdn.com/dms/image/D4D12AQEv2f5_KSYr5A/article-cover_image-shrink_720_1280/0/1683020912703?e=2147483647&v=beta&t=TNLEYIwy6UN2ZaXMkiPeo5Ig8frpepjVXDgw-NmQyJ8",
       // projectName: "Project 6",
+      className: "zoomIn",
     },
   ];
   const filteredPortfolioItems =
@@ -62,48 +77,40 @@ const Home = () => {
 
   return (
     <div>
-      <div className="container-fluid py-5 bg-primary hero-header mb-5 w-auto">
-        <div className="container my-5 py-5 ">
-          <div className="row g-5 py-5">
-            <div className="col-lg-6 text-center text-lg-start">
-              <h1 className="text-white mb-4 animated zoomIn">
-                Kricode Software Your Trusted Partner For Innovative Software
+      <div className="container-fluid py-4 py-md-5 bg-primary hero-header mb-5">
+        <div className="container my-4 my-md-5 py-4">
+          <div className="row align-items-center">
+            <div className="col-lg-6 text-center mb-3 mb-lg-0">
+              <h1 className="text-white mb-3 mb-md-4 animated zoomIn">
+                Kricode Software - Your Trusted Partner For Innovative Software
                 Solutions And Beyond
               </h1>
-              <p className="text-white pb-3 animated zoomIn">
-                Kricode Softwares Offers Comprehensive Software Solutions,
-                Including Data Science, Quality Testing, Mobile Apps, And Web
-                Development, Digital Marketing, Full-Stack Web Development. Our
-                Expertise Ensures Innovation And Excellence In Navigating The
-                Digital Landscape For Your Success.
+              <p className="text-white pb-3 pb-md-4 animated zoomIn">
+                Kricode Softwares offers comprehensive software solutions,
+                including data science, quality testing, mobile apps, and web
+                development, digital marketing, full-stack web development. Our
+                expertise ensures innovation and excellence in navigating the
+                digital landscape for your success.
               </p>
               <a
-                href
-                className="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
+                href="#"
+                className="btn btn-light py-2 py-md-3 px-4 px-md-5 rounded-pill me-3 animated slideInLeft"
               >
                 Free Quote
               </a>
-              <Link
-                to="/contact"
-                className="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight"
+              <a
+                href="/contact"
+                className="btn btn-outline-light py-2 py-md-3 px-4 px-md-5 rounded-pill animated slideInRight"
               >
                 Contact Us
-              </Link>
+              </a>
             </div>
-            <div className="col-lg-6 text-center animated-image" >
-              {/* <img className="img-fluid" src="img/hero.png" alt /> */}
+            <div className="col-lg-6 text-center  animated-image" >
               <img
-           
                 src={require("../../Component/Images/2202757-removebg-preview (4).png")}
-                alt=""
-                height="500"
-                width="735"
-                style={{
-                  mixBlendMode: "normal",
-                  paddingBottom:'100px',
-                  // backgroundColor: "white",
-                  borderRadius: "20px",
-                }}
+                alt
+                className="img-fluid rounded-lg"
+                style={{ maxWidth: "100%"}}
               />
             </div>
           </div>
@@ -112,8 +119,8 @@ const Home = () => {
 
       <div className="container py-5">
         <div className="container ">
-          <div className="row g-5">
-            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div className="row ">
+            <div className="col-lg-6  mb-3 wow fadeInUp" data-wow-delay="0.1s">
               <div className=" position-relative mb-4 pb-2">
                 <h6 className="position-relative text-primary ps-4">
                   About Us
@@ -241,8 +248,8 @@ const Home = () => {
               Our Services
             </h6>
             <h2 className="mt-2" style={{ fontSize: "20px" }}>
-              Innovate Evolve Succeed Your Comprehensive Hub For Data
-              Science Quality Testing Mobile & Web Development Solutions.
+              Innovate Evolve Succeed Your Comprehensive Hub For Data Science
+              Quality Testing Mobile & Web Development Solutions.
             </h2>
           </div>
           <div className="row g-4">
@@ -564,11 +571,16 @@ const Home = () => {
             <h2 className=" position-relative text-center wow fadeInUp">
               Our Client Logo's
             </h2>
-            <div className="col-12 text-center">
-              <ul className="list-inline" id="portfolio-flters">
+            <div className="col-12 text-center zoomIn" data-wow-delay="0.1s">
+              <ul className="list-inline wow zoomIn" id="portfolio-flters">
                 <li
-                  className={`btn px-3 pe-4 ${filter === "all" && "active"}`}
-                  onClick={() => setFilter("all")}
+                  className={`btn zoomIn px-3 pe-4 ${
+                    filter === "all" && "active"
+                  }`}
+                  onClick={() => {
+                    setFilter("all");
+                    // handleButtonClick();
+                  }}
                 >
                   All
                 </li>
@@ -589,11 +601,11 @@ const Home = () => {
               </ul>
             </div>
           </div>
-          <div className="row g-4 portfolio-container">
+          <div className="row g-4 portfolio-container wow zoomIn">
             {limitedPortfolioItems.map((item) => (
               <div
                 key={item.id}
-                className={`col-lg-4 col-md-6 portfolio-item ${item.category}`}
+                className={`col-lg-4 zoomIns col-md-6 portfolio-item ${item.category}`}
               >
                 <div className="position-relative rounded overflow-hidden">
                   <img className="img-fluid w-100" src={item.imageUrl} alt="" />

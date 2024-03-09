@@ -545,18 +545,9 @@ h6,
     padding: 50px;
   }
  
-
-
-
-  .image-container {
-    /* position: relative; */
-    /* overflow: hidden; */
-    /* height: 500px; Set the height of the container */
-  }
-  
   .animated-image {
-    /* position: absolute; */
-    /* top: 0; Start the image at the top of its container */
+    margin-bottom: 90px;
+    top: 0; 
     animation: upDownAnimation 1s infinite alternate; /* Change the duration (5s) as needed */
   }
   
@@ -568,6 +559,16 @@ h6,
       transform: translateY(30px); /* Adjust the distance the image moves */
     }
   }
+
+  
+
+ .testimonial-item img {
+    width: 100%; 
+    height: 190px; 
+    display: block; 
+}
+
+  
   
   
     

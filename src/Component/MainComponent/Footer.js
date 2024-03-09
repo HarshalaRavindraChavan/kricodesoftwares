@@ -13,7 +13,8 @@ const Footer = () => {
             <h5 className="text-white mb-4">Get In Touch</h5>
             <p>
               <i className="fa fa-map-marker-alt me-3" />
-              123 Street, New York, USA
+              SNo:28/22/1 Near Nirgili Plot Ambegaon Bk (Part) Ambegaon BK Haveli
+              Pune (411046) Maharastra India{" "}
             </p>
             <p>
               <i className="fa fa-phone-alt me-3" /> 7972276747 / 9322359906{" "}
@@ -54,7 +55,7 @@ const Footer = () => {
           </div>
           <div className="col-md-6 col-lg-3">
             <h5 className="text-white mb-4  ">Popular Link</h5>
-            <div style={{marginLeft:'80px'}}>
+            <div style={{ marginLeft: "80px" }}>
               <Link className="btn btn-link" to="/about">
                 About Us
               </Link>
@@ -95,9 +96,9 @@ const Footer = () => {
           <div className="col-md-4 col-lg-6">
             <h5 className="text-white mb-4">Newsletter</h5>
             <p>
-              Ready to take your digital presence to the next level? Contact us
-              today to learn more about how Kricode Software can help you
-              achieve your digital goals and drive success for your business.{" "}
+              Unlock the Future Get Exclusive Tech Insights & Updates with
+              Kricode Software's Newsletter. Subscribe Now for Your Digital
+              Advantage{" "}
             </p>
             <div className="position-relative w-100 mt-3">
               <input

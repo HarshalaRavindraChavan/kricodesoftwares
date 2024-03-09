@@ -84,7 +84,7 @@ const About = () => {
                 <h6 className="position-relative text-primary ps-4">
                   About Us
                 </h6>
-                <h2 className="mt-2" style={{fontSize:'20px'}}>
+                <h2 className="mt-2" style={{ fontSize: "20px" }}>
                   Building Tomorrow's Digital Landscape: Kricode Softwares,
                   Leading with Data Science, Quality Testing, Mobile App, and
                   Web Development Expertise
@@ -136,22 +136,19 @@ const About = () => {
                     <i className="fa fa-check text-primary me-2" />
                     Futuristic
                   </h6>
-                 
                 </div>
 
                 <div className="col-sm-4">
                   <h6 className="mb-3">
                     <i className="fa fa-check text-primary me-2" />
-                  Game-Changing
+                    Game-Changing
                   </h6>
-                  
                 </div>
                 <div className="col-sm-4">
                   <h6 className="mb-3">
                     <i className="fa fa-check text-primary me-2" />
                     Unleashing Potential
                   </h6>
-                 
                 </div>
               </div>
               <div className="d-flex align-items-center mt-4">
@@ -256,76 +253,73 @@ const About = () => {
             disableDotsControls
             disableButtonsControls
           >
-            <div className="testimonial-item bg-transparent  border rounded text-white p-4">
-              <i className="fa fa-quote-left fa-2x mb-3" />
-              <p>
-                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
-                stet amet eirmod eos labore diam
-              </p>
-              <div className="d-flex align-items-center">
-                <img
-                  className="img-fluid flex-shrink-0 rounded-circle"
-                  src="img/testimonial-1.jpg"
-                  style={{ width: 50, height: 50 }}
-                />
-                <div className="ps-3">
-                  <h6 className="text-white mb-1">Client Name</h6>
-                  <small>Profession</small>
-                </div>
+              <div className="testimonial-item bg-transparent border  text-white p-4">
+              <img
+                src="https://riseuplabs.com/wp-content/uploads/2021/07/mobile-application-development-guidelines-riseuplabs.jpg"
+                alt="Testimonial Image"
+              />
+              <div>
+                <Link
+                  className="btn px-4 mt-auto mx-auto"
+                  onClick={openDetailsPage}
+                  target="_blank"
+                  to="/servicescard4"
+                  style={{color:'white'}}
+                >
+                 MOBILE APP DEVELOPMENT
+                </Link>
               </div>
             </div>
-            <div className="testimonial-item bg-transparent border rounded text-white p-4">
-              <i className="fa fa-quote-left fa-2x mb-3" />
-              <p>
-                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
-                stet amet eirmod eos labore diam
-              </p>
-              <div className="d-flex align-items-center">
-                <img
-                  className="img-fluid flex-shrink-0 rounded-circle"
-                  src="img/testimonial-2.jpg"
-                  style={{ width: 50, height: 50 }}
-                />
-                <div className="ps-3">
-                  <h6 className="text-white mb-1">Client Name</h6>
-                  <small>Profession</small>
-                </div>
+            <div className="testimonial-item bg-transparent border  text-white p-4">
+              <img
+                src="https://media.licdn.com/dms/image/D5612AQEsZgunaW298Q/article-cover_image-shrink_600_2000/0/1685946598300?e=2147483647&v=beta&t=SbyU-KhLTfE0egHZ_QvryZ8hbApj5NiLZvyNPTFBcmM"
+                alt="Testimonial Image"
+              />
+              <div>
+                <Link
+                  className="btn px-3 mt-auto mx-auto"
+                  onClick={openDetailsPage}
+                  target="_blank"
+                  to="/servicescard2"
+                  style={{color:'white'}}
+                >
+                  DATA SCIENCE SOLUTIONS
+                </Link>
               </div>
             </div>
-            <div className=" testimonial-item bg-transparent border rounded text-white p-4">
-              <i className="fa fa-quote-left fa-2x mb-3" />
-              <p>
-                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
-                stet amet eirmod eos labore diam
-              </p>
-              <div className="d-flex align-items-center">
-                <img
-                  className="img-fluid flex-shrink-0 rounded-circle"
-                  src="img/testimonial-3.jpg"
-                  style={{ width: 50, height: 50 }}
-                />
-                <div className="ps-3">
-                  <h6 className="text-white mb-1">Client Name</h6>
-                  <small>Profession</small>
-                </div>
+
+            <div className="testimonial-item bg-transparent border  text-white p-4">
+              <img
+                src="https://cdn.pixabay.com/photo/2023/03/11/08/52/search-engine-optimization-7843974_640.jpg"
+                alt="Testimonial Image"
+              />
+              <div>
+                <Link
+                  className="btn px-3 mt-auto mx-auto"
+                  onClick={openDetailsPage}
+                  target="_blank"
+                  to="/servicescard1"
+                  style={{color:'white'}}
+                >
+                 SEARCH ENGINE OPTIMIZATION
+                </Link>
               </div>
             </div>
-            <div className="testimonial-item bg-transparent  border rounded text-white p-4">
-              <i className="fa fa-quote-left fa-2x mb-3" />
-              <p>
-                Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor
-                stet amet eirmod eos labore diam
-              </p>
-              <div className="d-flex align-items-center">
-                <img
-                  className="img-fluid flex-shrink-0 rounded-circle"
-                  src="img/testimonial-4.jpg"
-                  style={{ width: 50, height: 50 }}
-                />
-                <div className="ps-3">
-                  <h6 className="text-white mb-1">Client Name</h6>
-                  <small>Profession</small>
-                </div>
+            <div className="testimonial-item bg-transparent border  text-white p-4">
+              <img
+                src="https://www.extwebtech.com/wp-content/uploads/2023/05/website-development-company.webp"
+                alt="Testimonial Image"
+              />
+              <div>
+                <Link
+                  className="btn px-3 mt-auto mx-auto"
+                  onClick={openDetailsPage}
+                  target="_blank"
+                  to="/servicescard5"
+                  style={{color:'white'}}
+                >
+                 WEB DEVELOPMENT
+                </Link>
               </div>
             </div>
           </AliceCarousel>
