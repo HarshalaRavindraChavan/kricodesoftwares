@@ -83,7 +83,7 @@ const Services = () => {
             <h6 className="position-relative d-inline text-primary ps-4">
               Our Services
             </h6>
-            <h2 className="mt-2">Innovate. Elevate. Dominate: Where Data Science, Quality Testing, Mobile & Web Development Unite</h2>
+            <h2 className="mt-2">Innovate Elevate Dominate Where Data Science Quality Testing Mobile & Web Development Unite</h2>
           </div>
           <div className="row g-4">
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
