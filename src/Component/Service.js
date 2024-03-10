@@ -105,8 +105,6 @@ const Services = () => {
                   </div>
                   <Link
                     className="btn px-3 mt-auto mx-auto"
-                    onClick={openDetailsPage}
-                    target="_blank"
                     to="/servicescard1"
                   >
                     Read More
@@ -130,8 +128,6 @@ const Services = () => {
                 </p>
                 <Link
                     className="btn px-3 mt-auto mx-auto"
-                    onClick={openDetailsPage}
-                    target="_blank"
                     to="/servicescard2"
                   >
                     Read More
@@ -154,9 +150,7 @@ const Services = () => {
                   IoT devices.
                 </p>
                 <Link
-                    className="btn px-3 mt-auto mx-auto"
-                    onClick={openDetailsPage}
-                    target="_blank"
+                    className="btn px-3 mt-auto mx-auto"       
                     to="/servicescard3"
                   >
                     Read More
@@ -180,8 +174,6 @@ const Services = () => {
                 </p>
                 <Link
                     className="btn px-3 mt-auto mx-auto"
-                    onClick={openDetailsPage}
-                    target="_blank"
                     to="/servicescard4"
                   >
                     Read More
@@ -205,8 +197,6 @@ const Services = () => {
                 </p>
                 <Link
                     className="btn px-3 mt-auto mx-auto"
-                    onClick={openDetailsPage}
-                    target="_blank"
                     to="/servicescard5"
                   >
                     Read More
@@ -229,8 +219,6 @@ const Services = () => {
                 </p>
                 <Link
                     className="btn px-3 mt-auto mx-auto"
-                    onClick={openDetailsPage}
-                    target="_blank"
                     to="/servicescard6"
                   >
                     Read More

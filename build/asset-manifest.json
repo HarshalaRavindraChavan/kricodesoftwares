@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15972d0d.css",
+    "main.js": "/static/js/main.ddeab1ec.js",
+    "static/js/453.6825c44d.chunk.js": "/static/js/453.6825c44d.chunk.js",
+    "static/media/2202757-removebg-preview (4).png": "/static/media/2202757-removebg-preview (4).79659b985955840d8008.png",
+    "static/media/kricode-logo-ORIGINAL (2).png": "/static/media/kricode-logo-ORIGINAL (2).128052a66f5195861232.png",
+    "index.html": "/index.html",
+    "main.15972d0d.css.map": "/static/css/main.15972d0d.css.map",
+    "main.ddeab1ec.js.map": "/static/js/main.ddeab1ec.js.map",
+    "453.6825c44d.chunk.js.map": "/static/js/453.6825c44d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15972d0d.css",
+    "static/js/main.ddeab1ec.js"
+  ]
+}
