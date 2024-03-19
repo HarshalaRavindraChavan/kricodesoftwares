@@ -83,7 +83,10 @@ const Services = () => {
             <h6 className="position-relative d-inline text-primary ps-4">
               Our Services
             </h6>
-            <h2 className="mt-2">Innovate Elevate Dominate Where Data Science Quality Testing Mobile & Web Development Unite</h2>
+            <h2 className="mt-2">
+              Innovate Elevate Dominate Where Data Science Quality Testing
+              Mobile & Web Development Unite
+            </h2>
           </div>
           <div className="row g-4">
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -91,25 +94,23 @@ const Services = () => {
                 <div className="service-icon flex-shrink-0">
                   <i className="fas fa-search fa-2x"></i>
                 </div>
-                  <div>
-                    <h5 className="mb-3">Search Engine Optimization (SEO)</h5>
-                    <p>
-                      Our Search Engine Optimization (SEO) service is designed
-                      to improve your website's visibility in search engine
-                      results pages (SERPs), driving organic traffic and
-                      increasing your online presence. Through a combination of
-                      on-page optimization, content strategy, and technical SEO,
-                      we help your website rank higher for relevant keywords and
-                      attract more qualified leads.
-                    </p>
-                  </div>
-                  <Link
-                    className="btn px-3 mt-auto mx-auto"
-                    to="/servicescard1"
-                  >
-                    Read More
-                  </Link>
+                <div>
+                  <h5 className="mb-3">Search Engine Optimization (SEO)</h5>
+                  <p>
+                    Our Search Engine Optimization (SEO) service is designed to
+                    improve your website's visibility in search engine results
+                    pages (SERPs), driving organic traffic and increasing your
+                    online presence. Through a combination of on-page
+                    optimization, content strategy, and technical SEO, we help
+                    your website rank higher for relevant keywords and attract
+                    more qualified leads.
+                  </p>
                 </div>
+                <Link className="btn px-3 mt-auto mx-auto" to="/servicescard1">
+                  Read More
+                </Link>
+
+              </div>
             </div>
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
               <div className="service-item h-auto d-flex flex-column justify-content-center text-center rounded">
@@ -126,12 +127,9 @@ const Services = () => {
                   processes, our team of data scientists is here to help you
                   harness.
                 </p>
-                <Link
-                    className="btn px-3 mt-auto mx-auto"
-                    to="/servicescard2"
-                  >
-                    Read More
-                  </Link>
+                <Link className="btn px-3 mt-auto mx-auto" to="/servicescard2">
+                  Read More
+                </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -149,12 +147,9 @@ const Services = () => {
                   Complexities in testing modern applications like mobile apps,
                   IoT devices.
                 </p>
-                <Link
-                    className="btn px-3 mt-auto mx-auto"       
-                    to="/servicescard3"
-                  >
-                    Read More
-                  </Link>
+                <Link className="btn px-3 mt-auto mx-auto" to="/servicescard3">
+                  Read More
+                </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -172,12 +167,9 @@ const Services = () => {
                   and deploy custom mobile solutions that drive user engagement,
                   satisfaction.
                 </p>
-                <Link
-                    className="btn px-3 mt-auto mx-auto"
-                    to="/servicescard4"
-                  >
-                    Read More
-                  </Link>
+                <Link className="btn px-3 mt-auto mx-auto" to="/servicescard4">
+                  Read More
+                </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -195,12 +187,9 @@ const Services = () => {
                   technologies and best practices to deliver high-quality,
                   scalable.
                 </p>
-                <Link
-                    className="btn px-3 mt-auto mx-auto"
-                    to="/servicescard5"
-                  >
-                    Read More
-                  </Link>
+                <Link className="btn px-3 mt-auto mx-auto" to="/servicescard5">
+                  Read More
+                </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -217,12 +206,9 @@ const Services = () => {
                   protect it from unauthorized access.websites to complex
                   e-commerce platforms, our full-stack development.
                 </p>
-                <Link
-                    className="btn px-3 mt-auto mx-auto"
-                    to="/servicescard6"
-                  >
-                    Read More
-                  </Link>
+                <Link className="btn px-3 mt-auto mx-auto" to="/servicescard6">
+                  Read More
+                </Link>
               </div>
             </div>
           </div>

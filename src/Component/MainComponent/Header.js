@@ -9,7 +9,7 @@ const Header = () => {
         <a href className="navbar-brand p-0">
           <h1 className="p-2">
             <img
-              src={require("../../Component/Images/kricode-logo-ORIGINAL (2).png")}
+              src={require("../../Component/Images/(21) WhatsApp.jpg")}
               alt=""
               height="200"
               width="200"
@@ -59,12 +59,12 @@ const Header = () => {
           >
             <i className="fa fa-search" />
           </butaton>
-          <a
+          {/* <a
             href="https://htmlcodex.com/startup-company-website-template"
             className="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3"
           >
             Pro Version
-          </a>
+          </a> */}
         </div>
       </nav>
     </div>

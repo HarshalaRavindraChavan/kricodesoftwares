@@ -261,8 +261,6 @@ const About = () => {
               <div>
                 <Link
                   className="btn px-4 mt-auto mx-auto"
-                  onClick={openDetailsPage}
-                  target="_blank"
                   to="/servicescard4"
                   style={{color:'white'}}
                 >
@@ -278,8 +276,6 @@ const About = () => {
               <div>
                 <Link
                   className="btn px-3 mt-auto mx-auto"
-                  onClick={openDetailsPage}
-                  target="_blank"
                   to="/servicescard2"
                   style={{color:'white'}}
                 >
@@ -296,8 +292,6 @@ const About = () => {
               <div>
                 <Link
                   className="btn px-3 mt-auto mx-auto"
-                  onClick={openDetailsPage}
-                  target="_blank"
                   to="/servicescard1"
                   style={{color:'white'}}
                 >
@@ -313,8 +307,6 @@ const About = () => {
               <div>
                 <Link
                   className="btn px-3 mt-auto mx-auto"
-                  onClick={openDetailsPage}
-                  target="_blank"
                   to="/servicescard5"
                   style={{color:'white'}}
                 >

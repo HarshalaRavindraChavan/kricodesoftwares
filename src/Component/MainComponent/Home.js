@@ -92,25 +92,25 @@ const Home = () => {
                 expertise ensures innovation and excellence in navigating the
                 digital landscape for your success.
               </p>
-              <a
-                href="#"
+              <Link
+                to="/about"
                 className="btn btn-light py-2 py-md-3 px-4 px-md-5 rounded-pill me-3 animated slideInLeft"
               >
                 Free Quote
-              </a>
-              <a
-                href="/contact"
+              </Link>
+              <Link
+                to="/contact"
                 className="btn btn-outline-light py-2 py-md-3 px-4 px-md-5 rounded-pill animated slideInRight"
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
-            <div className="col-lg-6 text-center  animated-image" >
+            <div className="col-lg-6 text-center  animated-image">
               <img
                 src={require("../../Component/Images/2202757-removebg-preview (4).png")}
                 alt
                 className="img-fluid rounded-lg"
-                style={{ maxWidth: "100%"}}
+                style={{ maxWidth: "100%" }}
               />
             </div>
           </div>
@@ -195,8 +195,6 @@ const Home = () => {
               <div className="d-flex align-items-center mt-4">
                 <Link
                   className="btn btn-primary rounded-pill px-4 me-3"
-                  onClick={openDetailsPage}
-                  target="_blank"
                   to="/aboutcard"
                 >
                   Read More
@@ -270,12 +268,7 @@ const Home = () => {
                     more qualified leads.
                   </p>
                 </div>
-                <Link
-                  className="btn px-3 mt-auto mx-auto"
-                  onClick={openDetailsPage}
-                  target="_blank"
-                  to="/servicescard1"
-                >
+                <Link className="btn px-3 mt-auto mx-auto" to="/servicescard1">
                   Read More
                 </Link>
               </div>
@@ -295,12 +288,7 @@ const Home = () => {
                   processes, our team of data scientists is here to help you
                   harness.
                 </p>
-                <Link
-                  className="btn px-3 mt-auto mx-auto"
-                  onClick={openDetailsPage}
-                  target="_blank"
-                  to="/servicescard2"
-                >
+                <Link className="btn px-3 mt-auto mx-auto" to="/servicescard2">
                   Read More
                 </Link>
               </div>
@@ -320,12 +308,7 @@ const Home = () => {
                   Complexities in testing modern applications like mobile apps,
                   IoT devices.
                 </p>
-                <Link
-                  className="btn px-3 mt-auto mx-auto"
-                  onClick={openDetailsPage}
-                  target="_blank"
-                  to="/servicescard3"
-                >
+                <Link className="btn px-3 mt-auto mx-auto" to="/servicescard3">
                   Read More
                 </Link>
               </div>
@@ -345,12 +328,7 @@ const Home = () => {
                   and deploy custom mobile solutions that drive user engagement,
                   satisfaction.
                 </p>
-                <Link
-                  className="btn px-3 mt-auto mx-auto"
-                  onClick={openDetailsPage}
-                  target="_blank"
-                  to="/servicescard4"
-                >
+                <Link className="btn px-3 mt-auto mx-auto" to="/servicescard4">
                   Read More
                 </Link>
               </div>
@@ -370,12 +348,7 @@ const Home = () => {
                   technologies and best practices to deliver high-quality,
                   scalable.
                 </p>
-                <Link
-                  className="btn px-3 mt-auto mx-auto"
-                  onClick={openDetailsPage}
-                  target="_blank"
-                  to="/servicescard5"
-                >
+                <Link className="btn px-3 mt-auto mx-auto" to="/servicescard5">
                   Read More
                 </Link>
               </div>
@@ -394,12 +367,7 @@ const Home = () => {
                   protect it from unauthorized access.websites to complex
                   e-commerce platforms, our full-stack development.
                 </p>
-                <Link
-                  className="btn px-3 mt-auto mx-auto"
-                  onClick={openDetailsPage}
-                  target="_blank"
-                  to="/servicescard6"
-                >
+                <Link className="btn px-3 mt-auto mx-auto" to="/servicescard6">
                   Read More
                 </Link>
               </div>
@@ -408,168 +376,110 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="container py-5">
-        <div className="container ">
+      <div className="container-xxl py-5">
+        <div className="container px-lg-5">
           <div
-            className=" position-relative text-center mb-5 pb-2 wow fadeInUp"
+            className="position-relative text-center mb-5 pb-2 wow fadeInUp"
             data-wow-delay="0.1s"
           >
             <h6 className="position-relative d-inline text-primary ps-4">
-              Our Team
+              Our Clients Logo's
             </h6>
-            <h2 className="mt-2">Meet Our Team Members</h2>
+            <h2 className="mt-2">Recently Launched Projects</h2>
           </div>
-          <div className="row g-4">
+          <div className="row g-4 portfolio-container">
             <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 portfolio-item first wow zoomIn"
               data-wow-delay="0.1s"
             >
-              <div className="team-item">
-                <div className="d-flex">
-                  <div
-                    className="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
-                    style={{ width: 75 }}
-                  >
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                  <img
-                    className="img-fluid rounded w-100"
-                    src="img/team-1.jpg"
-                    alt
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h5 className="fw-bold m-0">Jhon Doe</h5>
-                  <small>CEO</small>
-                </div>
+              <div className="position-relative rounded overflow-hidden">
+                <img
+                  src={require("../../Component/Logo'S/Bridgesang_logo (1).jpeg")}
+                  alt=""
+                  className="img-fluid rounded-circle"
+                  style={{ width: "200px", height: "200px" }} // Set desired size here
+                />
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-lg-4 col-md-6 portfolio-item second wow zoomIn"
               data-wow-delay="0.3s"
             >
-              <div className="team-item">
-                <div className="d-flex">
-                  <div
-                    className="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
-                    style={{ width: 75 }}
-                  >
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                  <img
-                    className="img-fluid rounded w-100"
-                    src="img/team-2.jpg"
-                    alt
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h5 className="fw-bold m-0">Emma William</h5>
-                  <small>Manager</small>
-                </div>
+              <div className="position-relative rounded overflow-hidden">
+                <img
+                  src={require("../../Component/Logo'S/logo .png")}
+                  alt=""
+                  className="img-fluid rounded-circle"
+                  style={{ width: "200px", height: "200px" }}
+                />
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.6s"
+              className="col-lg-4 col-md-6 portfolio-item second wow zoomIn"
+              data-wow-delay="0.3s"
             >
-              <div className="team-item">
-                <div className="d-flex">
-                  <div
-                    className="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
-                    style={{ width: 75 }}
-                  >
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a
-                      className="btn btn-square text-primary bg-white my-1"
-                      href
-                    >
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                  <img
-                    className="img-fluid rounded w-100"
-                    src="img/team-3.jpg"
-                    alt
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h5 className="fw-bold m-0">Noah Michael</h5>
-                  <small>Designer</small>
-                </div>
+              <div className="position-relative rounded overflow-hidden">
+                <img
+                  src={require("../../Component/Logo'S/lOGO (2) (2).png")}
+                  alt=""
+                  className="img-fluid "
+                  style={{ width: "200px", height: "200px" }}
+                />
               </div>
             </div>
+            {/* Repeat similar structure for other portfolio items */}
+          </div>
+
+          <div className="row g-4 portfolio-container">
+            <div
+              className="col-lg-4 col-md-6 portfolio-item first wow zoomIn"
+              data-wow-delay="0.1s"
+            >
+              <div className="position-relative rounded overflow-hidden">
+                <img
+                  src={require("../../Component/Logo'S/a1fffe56-8b9f-42d7-9daa-8b21242dc2e1.jpg")}
+                  alt=""
+                  className="img-fluid rounded-circle"
+                  style={{ width: "200px", height: "200px" }} // Set desired size here
+                />
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 portfolio-item second wow zoomIn"
+              data-wow-delay="0.3s"
+            >
+              <div className="position-relative rounded overflow-hidden">
+                <img
+                  src={require("../../Component/Logo'S/5711d960-ff91-4e5e-a3df-167469c284c9.jpg")}
+                  alt=""
+                  className="img-fluid rounded-circle"
+                  style={{ width: "200px", height: "200px" }}
+                />
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 portfolio-item second wow zoomIn"
+              data-wow-delay="0.3s"
+            >
+              <div className="position-relative rounded overflow-hidden">
+                <img
+                  src={require("../../Component/Logo'S/4634e7e0-0783-4ac6-8f73-a090cb3f3d5c.jpg")}
+                  alt=""
+                  className="img-fluid "
+                  style={{ width: "400px", height: "200px",backgroundColor:"blue",marginLeft:'80px' }}
+                />
+              </div>
+            </div>
+            {/* Repeat similar structure for other portfolio items */}
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="container-fluid py-5">
         <div className="container ">
           <div className="row wow fadeInUp">
             <h2 className=" position-relative text-center wow fadeInUp">
-              Our Client Logo's
+              Our Projects
             </h2>
             <div className="col-12 text-center zoomIn" data-wow-delay="0.1s">
               <ul className="list-inline wow zoomIn" id="portfolio-flters">

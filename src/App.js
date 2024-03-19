@@ -24,29 +24,21 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Master Rcf={Home} />}></Route>
-          <Route path="/about" element={<Master Rcf={About} />}></Route>
-          {/* <Route path="/project" element={<Master Rcf={Project} />}></Route> */}
-          <Route path="/team" element={<Master Rcf={Team} />}></Route>
-          <Route path="/testimonial" element={<Master Rcf={Testimonial}/>}></Route>
-          <Route path="/contact" element={<Master Rcf={Contact} />}></Route>
-          <Route path="/notfound" element={<Master Rcf={Notfound} />}></Route>
-          <Route path="/service" element={<Master Rcf={Service} />}></Route>
-          <Route path="/aboutcard" element={<Master Rcf={AboutCard} />}></Route>
-          <Route path="/servicescard1" element={<Master Rcf={ServicesCard1} />}></Route>
-          <Route path="/servicescard2" element={<Master Rcf={ServicesCard2} />}></Route>
-          <Route path="/servicescard3" element={<Master Rcf={ServicesCard3} />}></Route>
-          <Route path="/servicescard4" element={<Master Rcf={ServicesCard4} />}></Route>
-          <Route path="/servicescard5" element={<Master Rcf={ServicesCard5} />}></Route>
-          <Route path="/servicescard6" element={<Master Rcf={ServicesCard6} />}></Route>
-
-
-
-
-
-         
-
-         
+          <Route path="/" element={<Master Rcf={Home} />} />
+          <Route path="/about" element={<Master Rcf={About} />} />
+          {/* <Route path="/project" element={<Master Rcf={Project} />} /> */}
+          <Route path="/team" element={<Master Rcf={Team} />} />
+          <Route path="/testimonial" element={<Master Rcf={Testimonial} />} />
+          <Route path="/contact" element={<Master Rcf={Contact} />} />
+          <Route path="/notfound" element={<Master Rcf={Notfound} />} />
+          <Route path="/service" element={<Master Rcf={Service} />} />
+          <Route path="/aboutcard" element={<Master Rcf={AboutCard} />} />
+          <Route path="/servicescard1" element={<Master Rcf={ServicesCard1} />} />
+          <Route path="/servicescard2" element={<Master Rcf={ServicesCard2} />} />
+          <Route path="/servicescard3" element={<Master Rcf={ServicesCard3} />} />
+          <Route path="/servicescard4" element={<Master Rcf={ServicesCard4} />} />
+          <Route path="/servicescard5" element={<Master Rcf={ServicesCard5} />} />
+          <Route path="/servicescard6" element={<Master Rcf={ServicesCard6} />} />
         </Routes>
       </BrowserRouter>
     </div>
