@@ -9,7 +9,7 @@ const Header = () => {
         <a href className="navbar-brand p-0">
           <h1 className="p-2">
             <img
-              src={require("../../Component/Images/(21) WhatsApp.jpg")}
+              src={require("../../Component/Images/ea6716f0-689f-4d03-832e-704374658a1c.jpg")}
               alt=""
               height="200"
               width="200"
