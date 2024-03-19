@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="container-fluid p-0 w-auto ">
+    <div className="container-fluid p-0 w-auto " >
       <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <a href className="navbar-brand p-0">
           <h1 className="p-2">
@@ -53,7 +53,7 @@ const Header = () => {
           </div>
           <butaton
             type="button"
-            className="btn text-secondary ms-3"
+            className="btn ms-3"
             data-bs-toggle="modal"
             data-bs-target="#searchModal"
           >
