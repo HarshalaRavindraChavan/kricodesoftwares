@@ -232,7 +232,7 @@ const Team = () => {
                   Our Team{" "}
                 </h6>
                 <h2 className="mt-2" style={{ fontSize: "20px" }}>
-                  Powered By Passion Fueled by Collaboration Your Success Iss
+                  Powered By Passion Fueled by Collaboration Your Success Is
                   Our Team's Triumph
                 </h2>
               </div>

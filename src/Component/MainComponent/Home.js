@@ -194,7 +194,7 @@ const Home = () => {
               </div>
               <div className="d-flex align-items-center mt-4">
                 <Link
-                  className="btn btn-primary rounded-pill px-4 me-3"
+                  className="btn color text-primary rounded-pill px-4 me-3"
                   to="/aboutcard"
                 >
                   Read More
@@ -376,7 +376,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container-xxl py-5">
+      {/* <div className="container-xxl py-5">
         <div className="container px-lg-5">
           <div
             className="position-relative text-center mb-5 pb-2 wow fadeInUp"
@@ -397,7 +397,7 @@ const Home = () => {
                   src={require("../../Component/Logo'S/Bridgesang_logo (1).jpeg")}
                   alt=""
                   className="img-fluid rounded-circle"
-                  style={{ width: "200px", height: "200px" }} // Set desired size here
+                  style={{ width: "200px", height: "200px" }} 
                 />
               </div>
             </div>
@@ -427,7 +427,7 @@ const Home = () => {
                 />
               </div>
             </div>
-            {/* Repeat similar structure for other portfolio items */}
+          
           </div>
 
           <div className="row g-4 portfolio-container">
@@ -440,7 +440,7 @@ const Home = () => {
                   src={require("../../Component/Logo'S/a1fffe56-8b9f-42d7-9daa-8b21242dc2e1.jpg")}
                   alt=""
                   className="img-fluid rounded-circle"
-                  style={{ width: "200px", height: "200px" }} // Set desired size here
+                  style={{ width: "200px", height: "200px" }} 
                 />
               </div>
             </div>
@@ -470,11 +470,228 @@ const Home = () => {
                 />
               </div>
             </div>
-            {/* Repeat similar structure for other portfolio items */}
+         
+          </div>
+        </div>
+      </div> */}
+
+      <div className="container-fluid py-5">
+        <div className="container">
+          <div
+            className="position-relative text-center mb-5 pb-2 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <h6 className="position-relative d-inline text-primary ps-4">
+              Our Clients Logo's
+            </h6>
+            <h2 className="mt-2">Recently Launched Projects</h2>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: 20,
+              marginBottom: "-1px",
+              justifyContent: "center",
+            }}
+            className="overlay-div"
+          >
+            <div
+              style={{
+                flex: "0 0 auto",
+                width: "10%",
+                maxWidth: "18.75rem",
+                alignSelf: "center",
+                textAlign: "center",
+                margin: 20,
+              }}
+            >
+              <img
+                src={require("../../Component/Logo'S/Bridgesang_logo (1).jpeg")}
+                alt=""
+                style={{ width: "100px", height: "auto" }}
+              />
+            </div>
+            <div
+              style={{
+                flex: "0 0 auto",
+                width: "10%",
+                maxWidth: "18.75rem",
+                alignSelf: "center",
+                textAlign: "center",
+                margin: 20,
+              }}
+            >
+              <img
+                src={require("../../Component/Logo'S/logo .png")}
+                alt=""
+                style={{ width: "100%", height: "auto" }}
+              />
+            </div>
+            <div
+              style={{
+                flex: "0 0 auto",
+                width: "10%",
+                maxWidth: "18.75rem",
+                alignSelf: "center",
+                textAlign: "center",
+                margin: 20,
+              }}
+            >
+              <img
+                src={require("../../Component/Logo'S/lOGO (2) (2).png")}
+                alt=""
+                style={{ width: "100%", height: "auto" }}
+              />
+            </div>
+            <div
+              style={{
+                flex: "0 0 auto",
+                width: "10%",
+                maxWidth: "18.75rem",
+                alignSelf: "center",
+                textAlign: "center",
+                margin: 20,
+              }}
+            >
+              <img
+                src={require("../../Component/Logo'S/a1fffe56-8b9f-42d7-9daa-8b21242dc2e1.jpg")}
+                alt=""
+                style={{ width: "100%", height: "auto" }}
+              />
+            </div>
+            <div
+              style={{
+                flex: "0 0 auto",
+                width: "10%",
+                maxWidth: "18.75rem",
+                alignSelf: "center",
+                textAlign: "center",
+                margin: 20,
+              }}
+            >
+              <img
+                src={require("../../Component/Logo'S/image-removebg-preview.png")}
+                alt=""
+                style={{ width: "100%", height: "auto" }}
+              />
+            </div>
+            <div
+              style={{
+                flex: "0 0 auto",
+                width: "10%",
+                maxWidth: "18.75rem",
+                alignSelf: "center",
+                textAlign: "center",
+                margin: 20,
+              }}
+            >
+              <img
+                src={require("../../Component/Logo'S/4634e7e0-0783-4ac6-8f73-a090cb3f3d5c.jpg")}
+                alt=""
+                style={{ width: "100%", height: "auto" }}
+              />
+            </div>
+
+            <div
+              style={{
+                flex: "0 0 auto",
+                width: "10%",
+                maxWidth: "18.75rem",
+                alignSelf: "center",
+                textAlign: "center",
+                margin: 20,
+              }}
+            >
+              <img
+                src={require("../../Component/Logo'S/13cb16d7-66e9-47cb-8a6f-9b4b686c8cba.jpg")}
+                alt=""
+                style={{ width: "100%", height: "auto" }}
+              />
+            </div>
+            <div
+              style={{
+                flex: "0 0 auto",
+                width: "10%",
+                maxWidth: "18.75rem",
+                alignSelf: "center",
+                textAlign: "center",
+                margin: 20,
+              }}
+            >
+              <img
+                src={require("../../Component/Logo'S/Murli-LOGO (2).gif")}
+                alt=""
+                style={{ width: "100%", height: "auto" }}
+              />
+            </div>
+            <div
+              style={{
+                flex: "0 0 auto",
+                width: "10%",
+                maxWidth: "18.75rem",
+                alignSelf: "center",
+                textAlign: "center",
+                margin: 20,
+              }}
+            >
+              <img
+                src={require("../../Component/Logo'S/logo.jpeg")}
+                alt=""
+                style={{ width: "100%", height: "auto" }}
+              />
+            </div>
+            <div
+              style={{
+                flex: "0 0 auto",
+                width: "10%",
+                maxWidth: "18.75rem",
+                alignSelf: "center",
+                textAlign: "center",
+                margin: 20,
+              }}
+            >
+              <img
+                src={require("../../Component/Logo'S/logo-png (1).png")}
+                alt=""
+                style={{ width: "100%", height: "auto" }}
+              />
+            </div>
+            <div
+              style={{
+                flex: "0 0 auto",
+                width: "10%",
+                maxWidth: "18.75rem",
+                alignSelf: "center",
+                textAlign: "center",
+                margin: 20,
+              }}
+            >
+              <img
+                src={require("../../Component/Logo'S/Logo2.png")}
+                alt=""
+                style={{ width: "100%", height: "auto" }}
+              />
+            </div>
+            <div
+              style={{
+                flex: "0 0 auto",
+                width: "10%",
+                maxWidth: "18.75rem",
+                alignSelf: "center",
+                textAlign: "center",
+                margin: 20,
+              }}
+            >
+              <img
+                src={require("../../Component/Logo'S/4634e7e0-0783-4ac6-8f73-a090cb3f3d5c.jpg")}
+                alt=""
+                style={{ width: "100%", height: "auto" }}
+              />
+            </div>
           </div>
         </div>
       </div>
-
       <div className="container-fluid py-5">
         <div className="container ">
           <div className="row wow fadeInUp">

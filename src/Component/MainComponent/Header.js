@@ -51,14 +51,14 @@ const Header = () => {
               Contact
             </Link>
           </div>
-          <butaton
+          {/* <butaton
             type="button"
             className="btn ms-3"
             data-bs-toggle="modal"
             data-bs-target="#searchModal"
           >
             <i className="fa fa-search" />
-          </butaton>
+          </butaton> */}
           {/* <a
             href="https://htmlcodex.com/startup-company-website-template"
             className="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3"

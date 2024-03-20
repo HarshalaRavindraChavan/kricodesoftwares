@@ -23,6 +23,11 @@ const Footer = () => {
               <i className="fa fa-envelope me-3" />
               kricodesoftwares@gmail.com{" "}
             </p>
+
+            <p>
+              <i className="fa fa-envelope me-3" />
+              info@kricodesoftwares.com{" "}
+            </p>
             <div className="d-flex pt-2" style={{ paddingLeft: "50px" }}>
               {/* <a className="btn btn-outline-light btn-social" href="">
                 <i className="fab fa-twitter" />
