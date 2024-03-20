@@ -622,6 +622,8 @@ const Home = () => {
                 textAlign: "center",
                 margin: 20,
               }}
+
+              //khghkuyfuyuyryu7ci8ri75ici86
             >
               <img
                 src={require("../../Component/Logo'S/Murli-LOGO (2).gif")}
