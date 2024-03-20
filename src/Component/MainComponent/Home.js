@@ -607,6 +607,7 @@ const Home = () => {
                 margin: 20,
               }}
             >
+              
               <img
                 src={require("../../Component/Logo'S/WhatsApp Image 2024-03-12 at 11.16.56.jpeg")}
                 alt=""
