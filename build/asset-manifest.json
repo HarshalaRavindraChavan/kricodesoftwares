@@ -1,17 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.15972d0d.css",
-    "main.js": "/static/js/main.34b3133f.js",
+    "main.js": "/static/js/main.00088a2e.js",
     "static/js/453.6825c44d.chunk.js": "/static/js/453.6825c44d.chunk.js",
+    "static/media/logo-png (1).png": "/static/media/logo-png (1).03a5cf554626301574c6.png",
     "static/media/2202757-removebg-preview (4).png": "/static/media/2202757-removebg-preview (4).79659b985955840d8008.png",
-    "static/media/kricode-logo-ORIGINAL (2).png": "/static/media/kricode-logo-ORIGINAL (2).128052a66f5195861232.png",
+    "static/media/lOGO (2) (2).png": "/static/media/lOGO (2) (2).9b09f763a3ee97b9fd6d.png",
+    "static/media/image-removebg-preview.png": "/static/media/image-removebg-preview.4ee5a16408cf9e5a6edf.png",
+    "static/media/logo .png": "/static/media/logo .5d219991643c182d2843.png",
+    "static/media/logo.jpeg": "/static/media/logo.59d9a235f1d3a0646e32.jpeg",
+    "static/media/Murli-LOGO (2).gif": "/static/media/Murli-LOGO (2).51ca86d81310727b3c09.gif",
+    "static/media/a1fffe56-8b9f-42d7-9daa-8b21242dc2e1.jpg": "/static/media/a1fffe56-8b9f-42d7-9daa-8b21242dc2e1.d9c4f290cafac68f20bb.jpg",
+    "static/media/WhatsApp Image 2024-03-12 at 11.16.56.jpeg": "/static/media/WhatsApp Image 2024-03-12 at 11.16.56.3fe8403efd34fce12d94.jpeg",
+    "static/media/ea6716f0-689f-4d03-832e-704374658a1c.jpg": "/static/media/ea6716f0-689f-4d03-832e-704374658a1c.f81fed73943882fb39a1.jpg",
+    "static/media/Bridgesang_logo (1).jpeg": "/static/media/Bridgesang_logo (1).c11f48a1e737309fca99.jpeg",
+    "static/media/Logo2.png": "/static/media/Logo2.64e3c13d989665711c99.png",
     "index.html": "/index.html",
     "main.15972d0d.css.map": "/static/css/main.15972d0d.css.map",
-    "main.34b3133f.js.map": "/static/js/main.34b3133f.js.map",
+    "main.00088a2e.js.map": "/static/js/main.00088a2e.js.map",
     "453.6825c44d.chunk.js.map": "/static/js/453.6825c44d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15972d0d.css",
-    "static/js/main.34b3133f.js"
+    "static/js/main.00088a2e.js"
   ]
 }
