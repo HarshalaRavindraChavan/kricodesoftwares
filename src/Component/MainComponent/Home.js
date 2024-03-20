@@ -193,12 +193,16 @@ const Home = () => {
                 </div>
               </div>
               <div className="d-flex align-items-center mt-4">
-                <Link
+                {/* <Link
                   className="btn color text-primary rounded-pill px-4 me-3"
                   to="/aboutcard"
                 >
                   Read More
+                </Link> */}
+                <Link class="btn btn-primary rounded-pill px-4 me-3" to="/aboutcard">
+                  Read More
                 </Link>
+
                 <a
                   className="btn btn-outline-primary btn-square me-3"
                   href="https://www.facebook.com/profile.php?id=61556115733343"
@@ -604,7 +608,7 @@ const Home = () => {
               }}
             >
               <img
-                src={require("../../Component/Logo'S/13cb16d7-66e9-47cb-8a6f-9b4b686c8cba.jpg")}
+                src={require("../../Component/Logo'S/WhatsApp Image 2024-03-12 at 11.16.56.jpeg")}
                 alt=""
                 style={{ width: "100%", height: "auto" }}
               />
@@ -673,7 +677,7 @@ const Home = () => {
                 style={{ width: "100%", height: "auto" }}
               />
             </div>
-            <div
+            {/* <div
               style={{
                 flex: "0 0 auto",
                 width: "10%",
@@ -688,7 +692,7 @@ const Home = () => {
                 alt=""
                 style={{ width: "100%", height: "auto" }}
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
