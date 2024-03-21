@@ -24,12 +24,12 @@ const Footer = () => {
               kricodesoftwares@gmail.com / info@kricodesoftwares.com{" "}
             </p> */}
             <p>
-              <a href="kricodesoftwares@gmail.com">
+              <a href="kricodesoftwares@gmail.com" className="text-white">
                 <i class="fa fa-envelope me-2"></i>
-                kricodesoftwares@gmail.com
-              </a>
-              /
-              <a href="info@kricodesoftwares.com">
+                kricodesoftwares@gmail.com /
+              </a><br></br>
+               
+              <a href="info@kricodesoftwares.com" className="text-white">
                 info@kricodesoftwares.com
               </a>
             </p>
@@ -99,29 +99,26 @@ const Footer = () => {
                 <i className="fa fa-paper-plane text-primary fs-4" />
               </button>
               <div className="d-flex pt-4">
-                {/* <a className="btn btn-outline-light btn-social" href="">
-                <i className="fab fa-twitter" />
-              </a> */}
                 <a
-                  className="btn btn-outline-light btn-social"
+                  className="btn btn-outline-light btn-social mr-4"
                   href="https://www.facebook.com/profile.php?id=61556115733343"
                 >
                   <i className="fab fa-facebook-f" />
                 </a>
                 <a
-                  className="btn btn-outline-light btn-social"
+                  className="btn btn-outline-light btn-social mr-4"
                   href="https://www.youtube.com/"
                 >
                   <i className="fab fa-youtube" />
                 </a>
                 <a
-                  className="btn btn-outline-light btn-social"
+                  className="btn btn-outline-light btn-social mr-4"
                   href="https://www.instagram.com/kricodesoftwares/?hl=en"
                 >
                   <i className="fab fa-instagram" />
                 </a>
                 <a
-                  className="btn btn-outline-light btn-social"
+                  className="btn btn-outline-light btn-social mr-4"
                   href="https://www.linkedin.com/company/101652483/admin/feed/posts/"
                 >
                   <i className="fab fa-linkedin-in" />
@@ -143,12 +140,12 @@ const Footer = () => {
               {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
               Designed By{" "}
               <a className="border-bottom" href="https://htmlcodex.com">
-                HTML Codex
+                KRICODE SOFTWARE
               </a>
             </div>
             <div className="col-md-6 text-center text-md-end">
               <div className="footer-menu">
-                <a href>Home</a>
+                <Link to="/">Home</Link>
                 <a href>Cookies</a>
                 <a href>Help</a>
                 <a href>FQAs</a>
