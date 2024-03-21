@@ -19,16 +19,24 @@ const Footer = () => {
             <p>
               <i className="fa fa-phone-alt me-2" /> 7972276747 / 9322359906{" "}
             </p>
-            <p>
+            {/* <p>
               <i className="fa fa-envelope me-2" />
               kricodesoftwares@gmail.com / info@kricodesoftwares.com{" "}
+            </p> */}
+            <p>
+              <a href="kricodesoftwares@gmail.com">
+                <i class="fa fa-envelope me-2"></i>
+                kricodesoftwares@gmail.com
+              </a>
+              /
+              <a href="info@kricodesoftwares.com">
+                info@kricodesoftwares.com
+              </a>
             </p>
-
             <p>
               {/* <i className="fa fa-envelope me-3" /> */}
               {/* info@kricodesoftwares.com{" "} */}
             </p>
-          
           </div>
           <div className="col-md-6 col-lg-3">
             <h5 className="text-white mb-4  ">Popular Link</h5>
@@ -90,35 +98,35 @@ const Footer = () => {
               >
                 <i className="fa fa-paper-plane text-primary fs-4" />
               </button>
-              <div className="d-flex pt-4" >
-              {/* <a className="btn btn-outline-light btn-social" href="">
+              <div className="d-flex pt-4">
+                {/* <a className="btn btn-outline-light btn-social" href="">
                 <i className="fab fa-twitter" />
               </a> */}
-              <a
-                className="btn btn-outline-light btn-social"
-                href="https://www.facebook.com/profile.php?id=61556115733343"
-              >
-                <i className="fab fa-facebook-f" />
-              </a>
-              <a
-                className="btn btn-outline-light btn-social"
-                href="https://www.youtube.com/"
-              >
-                <i className="fab fa-youtube" />
-              </a>
-              <a
-                className="btn btn-outline-light btn-social"
-                href="https://www.instagram.com/kricodesoftwares/?hl=en"
-              >
-                <i className="fab fa-instagram" />
-              </a>
-              <a
-                className="btn btn-outline-light btn-social"
-                href="https://www.linkedin.com/company/101652483/admin/feed/posts/"
-              >
-                <i className="fab fa-linkedin-in" />
-              </a>
-            </div>
+                <a
+                  className="btn btn-outline-light btn-social"
+                  href="https://www.facebook.com/profile.php?id=61556115733343"
+                >
+                  <i className="fab fa-facebook-f" />
+                </a>
+                <a
+                  className="btn btn-outline-light btn-social"
+                  href="https://www.youtube.com/"
+                >
+                  <i className="fab fa-youtube" />
+                </a>
+                <a
+                  className="btn btn-outline-light btn-social"
+                  href="https://www.instagram.com/kricodesoftwares/?hl=en"
+                >
+                  <i className="fab fa-instagram" />
+                </a>
+                <a
+                  className="btn btn-outline-light btn-social"
+                  href="https://www.linkedin.com/company/101652483/admin/feed/posts/"
+                >
+                  <i className="fab fa-linkedin-in" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
