@@ -18,6 +18,15 @@ const AboutCard = () => {
           </div>
         </div>
       </div>
+      <div className="container-fluid py-5 bg-primary hero-header mb-5">
+        <div className="container my-5 py-5 ">
+          <div className="row g-5 py-5">
+            <div className="col-12 text-center">
+              <h1 className="text-white animated zoomIn">About Us</h1>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container py-5">
         <div className="container ">
           <div className="row g-5">
