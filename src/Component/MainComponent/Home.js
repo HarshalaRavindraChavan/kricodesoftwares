@@ -126,7 +126,7 @@ const Home = () => {
                   About Us
                 </h6>
                 <h2 className="mt-2" style={{ fontSize: "20px" }}>
-                 Landscape Kricode Softwares,
+                Building Tomorrow's Digital Landscape Kricode Softwares,
                   Leading with Data Science, Quality Testing, Mobile App, And
                   Web Development Expertise
                 </h2>
